@@ -9,7 +9,7 @@ tags:
 
 # {{ $frontmatter.title }}
 
-Этот пост часть [серии обзоров текстологических проектов](textreview.md). Обсуждение проходит на форуме [discourse.comtext.space](https://discourse.comtext.space).
+**13.03.2022**
 
 [[toc]]
 
