@@ -14,7 +14,7 @@
 
 - [О воспитательном значении текстологической работы](https://comtext.space/о_воспитательном_значении_текстологической_работы.html)
 - [Что не так с текстологией и как исправить ситуацию](https://comtext.space/что_не_так_с_текстологией_и_как_исправить_ситуацию.html)
-- Много ссылок на материалы [теме на форуме discourse.comtext.space](https://discourse.comtext.space/t/stati-knigi-video-na-temu-oczifrovki-katalogizaczii-tekstologii-istoricheskoj-informatiki/32/7)
+- Много ссылок на материалы [теме на форуме discourse.comtext.space](https://discourse.comtext.space/t/stati-knigi-video-na-temu-oczifrovki-katalogizaczii-tekstologii-istoricheskoj-informatiki)
 
 ## Текстобзор
 
