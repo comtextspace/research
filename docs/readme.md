@@ -34,3 +34,4 @@
 8. [Das Scharwerk](textreview-das-scharwerk.md)
 9. [Vivaldi, DefView, БиблиоКербер, Notio](textreview-vivaldi.md)
 10. [ИнфоРост](textreview-inforost.md)
+11. [Национальная электронная библиотека (НЭБ)](textreview-rusneb.md)
