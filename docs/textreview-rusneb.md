@@ -9,6 +9,8 @@ tags:
 
 # {{ $frontmatter.title }}
 
+**09.11.2022**
+
 [[toc]]
 
 ## Описание
