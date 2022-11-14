@@ -35,3 +35,4 @@
 9. [Vivaldi, DefView, БиблиоКербер, Notio](textreview-vivaldi.md)
 10. [ИнфоРост](textreview-inforost.md)
 11. [Национальная электронная библиотека (НЭБ)](textreview-rusneb.md)
+12. [Викитека (wikisource.org)](textreview-wikisource.md)
