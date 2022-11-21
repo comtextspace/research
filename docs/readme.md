@@ -36,3 +36,15 @@
 10. [ИнфоРост](textreview-inforost.md)
 11. [Национальная электронная библиотека (НЭБ)](textreview-rusneb.md)
 12. [Викитека (wikisource.org)](textreview-wikisource.md)
+
+## Pandoc
+
+[Pandoc](https://pandoc.org) — программа для конвертации текста и файлов между разными типами разметки. Pandoc поддерживает очень много форматов. [Разработка ведется](https://github.com/jgm/pandoc) с 2006 года на [Haskell](https://www.haskell.org).
+
+1. [Основы Pandoc](pandoc-basic.md)
+1. [Способы добавления метаданных в документ Pandoc](pandoc-metadata.md)
+1. [Шаблоны и переменные Pandoc](pandoc-template.md)
+1. [Опции Pandoc: file-scope, preserve-tabs, tab-stop](pandoc-file-scope-preserve-tabs-tab-stop.md)
+1. [Сокращения (abbreviations) в Pandoc](pandoc-abbreviations.md)
+1. [Конвертация Markdown в doc через Pandoc с переопределением стилей](pandoc-md-to-doc.md)
+1. [Отладка ошибок конвертации в Pandoc](pandoc-debug.md)
