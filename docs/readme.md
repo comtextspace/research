@@ -36,6 +36,7 @@
 10. [ИнфоРост](textreview-inforost.md)
 11. [Национальная электронная библиотека (НЭБ)](textreview-rusneb.md)
 12. [Викитека (wikisource.org)](textreview-wikisource.md)
+13. [Федеральная Резервная Система Банков Знаний](textreview-nooregistry.md)
 
 ## Pandoc
 
