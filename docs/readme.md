@@ -49,3 +49,4 @@
 1. [Сокращения (abbreviations) в Pandoc](pandoc-abbreviations.md)
 1. [Конвертация Markdown в doc через Pandoc с переопределением стилей](pandoc-md-to-doc.md)
 1. [Отладка ошибок конвертации в Pandoc](pandoc-debug.md)
+1. [Оформление цитат и библиографии](pandoc-citations.md)
