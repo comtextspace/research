@@ -139,4 +139,69 @@ COMMENT ON COLUMN public.lingvo.familio IS 'Lingva familio, ligo al lingva_famil
 
 6\. Сейчас для таблиц используется схема `public`, эта схема применяется по умолчанию в PG, если схема явно не указано. При развитии базы данных может быть удобно разделить таблицы на несколько схем. В отдельную схему часто помещают нередактируемые таблицы-справочники (обычно их называют нормативно-справочная информация): справочник языков, справочник стран и тому подобные. Так же в отдельную схему могут быть выделены таблицы не относящиеся напрямую к текстологии но необходимые для работы программы: таблица пользователей, таблица прав доступа и подобные. Разделение таблиц на схемы упрощает понимание общей структуры базы данных и последующее администрирование.
 
+## Использование идентификаторов из Wikidata
 
+Для объединения разных баз данных потребуется наличие одинаковых идентификаторов для авторов, работ и, возможно, каких-то ещё. Эта проблема похожа на ту которая решена справочником языков, чтобы каждая группа не делала свой справочник, используется международный стандарт [ISO-639](https://ru.wikipedia.org/wiki/ISO_639). Такой же подход можно попробовать использовать для людей и работ. Один из вариантов откуда взять такой справочник — [wikidata.org](https://www.wikidata.org). Каждый человек и работа в wikidata имеет свой идентификатор, например:
+
+* [Q1394](https://www.wikidata.org/wiki/Q1394) — Vladimir Lenin
+* [Q1382977](https://www.wikidata.org/wiki/Q1382977) — Evald Ilyenkov
+* [Q192331](https://www.wikidata.org/wiki/Q192331) — Nikolay Chernyshevsky
+* [Q946877](https://www.wikidata.org/wiki/Q946877) — «Что делать?» В. Ленина
+* [Q2251772](https://www.wikidata.org/wiki/Q2251772) — «Что делать?» Н. Чернышевского
+
+Для использования идентификатора можно добавить в таблицы авторов и работ необязательные поля:
+
+```
+CREATE TABLE "Aŭtoroj"
+(
+    "Kodo"                    uuid        NOT NULL DEFAULT uuid_generate_v4(),
+    "Nomo originalo - lingvo" varchar(3)  NOT NULL,
+    ...
+    wikidata_kodo int  NULL,
+);
+```
+
+Второй, более сложный, но и более универсальный способ — сделать отдельную таблицу для сопоставлений внутренних идентификаторов авторов и работ с внешними идентификаторами. Это позволит вести сопоставление не только с wikidata, но и другими общедоступными справочниками. Структура таблиц может быть следующая.
+
+```
+CREATE TABLE ekstera_sistemo
+(
+    kodo   uuid          NOT NULL DEFAULT uuid_generate_v4()  primary key,
+    nomo   varchar(100)  NOT NULL,
+    ligilo varchar(100)  NOT NULL
+);
+
+COMMENT ON TABLE public.ekstera_sistemo IS 'Listo de eksteraj sistemoj';
+COMMENT ON COLUMN public.ekstera_sistemo.kodo IS 'Kodo de ekstera sistemo';
+COMMENT ON COLUMN public.ekstera_sistemo.nomo IS 'Nomo de ekstera sistemo';
+COMMENT ON COLUMN public.ekstera_sistemo.ligilo IS 'Ligo al ekstera sistemo';
+
+INSERT INTO ekstera_sistemo(nomo, ligilo) VALUES('Wikidata', 'https://www.wikidata.org/');
+
+CREATE TABLE interna_objekto
+(
+    kodo   uuid          NOT NULL DEFAULT uuid_generate_v4() primary key,
+    tablo varchar(100)   NOT NULL
+);
+
+COMMENT ON TABLE public.interna_objekto IS 'Listo de internaj objektoj';
+COMMENT ON COLUMN public.interna_objekto.kodo IS 'Kodo de interna objekto';
+COMMENT ON COLUMN public.interna_objekto.tablo IS 'Tablo de interna objekto';
+
+INSERT INTO interna_objekto(tablo) VALUES('aŭtoro');
+
+CREATE TABLE kongrua_kodo
+(
+    interna_kodo uuid NOT NULL,
+    interna_objekto uuid NOT NULL,
+    ekstera_kodo uuid NOT NULL,
+    ekstera_sistemo uuid NOT NULL,
+    CONSTRAINT kongrua_kodo_interna_objekto FOREIGN KEY (interna_objekto) REFERENCES interna_objekto (kodo),
+    CONSTRAINT kongrua_kodo_ekstera_sistemo FOREIGN KEY (ekstera_sistemo) REFERENCES ekstera_sistemo (kodo)
+);
+
+COMMENT ...
+
+```
+
+Содержимое Wikidata наполняется сообществом, поэтому добавить туда новых авторов и работы может любой человек.
