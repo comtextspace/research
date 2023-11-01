@@ -9,7 +9,7 @@
 ## Comtext
 
 * [Формат Comtext](format-comtext.md)
-* [История изменений формата Comtext](format-comtext.md)
+* [История изменений формата Comtext](format-comtext-changelog.md)
 * [Инструкция текстологической работы](git-guide.md)
 * [Похожие проекты](related-projects.md)
 
