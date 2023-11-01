@@ -6,6 +6,13 @@
 
 Для обсуждения и предложений открыт форум [discourse.comtext.space](https://discourse.comtext.space).
 
+## Comtext
+
+* [Формат Comtext](format-comtext.md)
+* [История изменений формата Comtext](format-comtext.md)
+* [Инструкция текстологической работы](git-guide.md)
+* [Похожие проекты](related-projects.md)
+
 ## Статьи
 
 - [Технические аспекты цифровой текстологии](технические-аспекты-текстологии.md)
