@@ -84,3 +84,47 @@
 ### Проверка
 
 Финальная проверка текста.
+
+## Пример работы в Proofreader
+
+Пример вычитки одной страницы по шагам.
+
+Откройте в браузере [страницу входа в Proofreader](http://proofreader.comtext.space/).
+
+![](images/proofreader-guide/proofreader-guide01.png)
+
+Введите `Имя пользователя` и `Пароль`, затем нажмите кнопку `Войти`.
+
+![](images/proofreader-guide/proofreader-guide02.png)
+
+Откройте список страниц книг, для этого нажмите на кнопку Изменить в строке `Pages`.
+
+![](images/proofreader-guide/proofreader-guide03.png)
+
+В правом меню выберите нужную книгу (1), после этого в таблице, в центре экрана, останутся только страницы выбранной книги. Затем выберите нужную страницу (2).
+
+Чтобы распознанный текст книги и изображение страницы находились на одной высоте закройте левое меню с помощью сплиттера:
+
+![](images/proofreader-guide/proofreader-guide04.png)
+
+![](images/proofreader-guide/proofreader-guide05.png)
+
+Чтобы вручную не удалять лишние переводы строк нажмите кнопку `Улучшить форматирование`. После этого абзацы склеятся в одну строку.
+
+![](images/proofreader-guide/proofreader-guide06.png)
+
+![](images/proofreader-guide/proofreader-guide07.png)
+
+Исправьте опечатки в тексте книги, сверяясь с изображением страницы.
+
+![](images/proofreader-guide/proofreader-guide08.png)
+
+Запишите номер страницы из книги (1) в поле `Номер страницы в книге` (2) и удалите номер из текста страницы (3).
+
+![](images/proofreader-guide/proofreader-guide09.png)
+
+Установите статус `Вычитано`.
+
+![](images/proofreader-guide/proofreader-guide10.png)
+
+Нажмите кнопки `Сохранить и продолжить редактирование` (1), а затем `Следующая страница` (2).
