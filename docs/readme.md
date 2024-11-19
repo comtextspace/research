@@ -6,6 +6,10 @@
 
 Для обсуждения и предложений открыт форум [discourse.comtext.space](https://discourse.comtext.space).
 
+## Оглавление
+
+[[TOC]]
+
 ## Comtext
 
 * [Формат Comtext](format-comtext.md)
