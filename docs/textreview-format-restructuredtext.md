@@ -11,7 +11,7 @@ tags:
 
 **22.11.2024**
 
-[reStructuredText](https://docutils.sourceforge.io/rst.html) — универсальный облегченный язык разметки, используется, в основном для написания технической документации, является составной частью написанного на Python набора программ [Docutils](https://docutils.sourceforge.io/index.html).
+[reStructuredText](https://docutils.sourceforge.io/rst.html) — облегченный язык разметки, используется, в основном для написания технической документации, является составной частью написанного на Python набора программ [Docutils](https://docutils.sourceforge.io/index.html).
 
 [[TOC]]
 
@@ -26,7 +26,7 @@ tags:
 
 Абзацы разделяются пустыми строками. Внутри абзаца могут быть переводы строки, они интерпретируются как пробелы (без принудительного перевода строки).
 
-```
+```rest
 This is a paragraph.
 
 Paragraphs line up at their left
@@ -38,7 +38,7 @@ by blank lines.
 
 Элементы списков могут состоять из нескольких абзацев.
 
-```
+```rest
 - This is the first bullet list item.  The blank line above the
   first list item is required; blank lines between list items
   (such as below this paragraph) are optional.
@@ -71,7 +71,7 @@ This paragraph is not part of the list.
 
 Список определений так же может состоять из нескольких абзацев.
 
-```
+```rest
 term 1
     Definition 1.
 
@@ -91,7 +91,7 @@ term 4 : classifier one : classifier two
 
 Примечательный элемент разметки. Применяется для добавления в документ метаинформации. В Markdown ту же роль выполняет [Frontmatter](https://jekyllrb.com/docs/front-matter/).
 
-```
+```rest
 :Date: 2001-08-16
 :Version: 1
 :Authors: - Me
@@ -108,7 +108,7 @@ term 4 : classifier one : classifier two
 
 Блок без форматирования — это блок следующий за параграфом оканчивающимся на `::`.
 
-```
+```rest
 Paragraph:
 
 ::
@@ -118,7 +118,7 @@ Paragraph:
 
 Второй вариант:
 
-```
+```rest
 Paragraph: ::
 
     Literal block
@@ -126,7 +126,7 @@ Paragraph: ::
 
 Здесь же пример синтаксической диаграммы, такие диаграммы используются в документации reStructuredText.
 
-```
+```rest
 +------------------------------+
 | paragraph                    |
 | (ends with "::")             |
@@ -138,7 +138,7 @@ Paragraph: ::
 
 Похожий на блок без форматирования элемент, но выделенный отдельно: все строки начинаются с символа `|`. Подходит для форматирования стихов и песен.
 
-```
+```rest
 | Lend us a couple of bob till Thursday.
 | I'm absolutely skint.
 | But I'm expecting a postal order and I can pay you back
@@ -146,7 +146,7 @@ Paragraph: ::
 | Love, Ewan.
 ```
 
-```
+```rest
 Take it away, Eric the Orchestra Leader!
 
     | A one, two, a one two three four
@@ -168,7 +168,7 @@ Take it away, Eric the Orchestra Leader!
 
 Цитаты выделяются отступом, без дополнительных спецсимволов. Автора цитаты можно указать под цитатой, используя `--`, `---` или `—`.
 
-```
+```rest
 This is an ordinary paragraph, introducing a block quote.
 
     "It is my business to know things.  That is my trade."
@@ -180,7 +180,7 @@ This is an ordinary paragraph, introducing a block quote.
 
 Форматирование таблиц:
 
-```
+```rest
 +--------------+----------+-----------+-----------+
 | row 1, col 1 | column 2 | column 3  | column 4  |
 +--------------+----------+-----------+-----------+
@@ -192,7 +192,7 @@ This is an ordinary paragraph, introducing a block quote.
 
 Есть упрощённый вариант
 
-```
+```rest
 =====  =====  =======
   A      B    A and B
 =====  =====  =======
@@ -207,7 +207,7 @@ True   True   True
 
 Для примечаний и некоторых других элементов используется особый блок: начало блока состоит из двух точек и пробела.
 
-```
+```rest
 [#]_ is a reference to footnote 1, and [#]_ is a reference to
 footnote 2.
 
@@ -222,7 +222,7 @@ footnote 2.
 
 Директивы — механизм расширения формата, без добавления нового элемента синтаксиса.
 
-```
+```rest
 +-------+-------------------------------+
 | ".. " | directive type "::" directive |
 +-------+ block                         |
@@ -232,13 +232,13 @@ footnote 2.
 
 Примеры директив:
 
-```
+```rest
 .. figure:: larch.png
 
    The larch.
 ```
 
-```
+```rest
 .. note:: This is a paragraph
 
    - Here is a bullet list.
@@ -246,7 +246,7 @@ footnote 2.
 
 Изображения являются директивой и [некоторые другие возможности](https://docutils.sourceforge.io/docs/ref/rst/directives.html) тоже реализованы через директивы.
 
-```
+```rest
 .. image:: picture.jpeg
    :height: 100px
    :width: 200 px
@@ -255,8 +255,6 @@ footnote 2.
    :alt: alternate text
    :align: right
 ```
-
-
 
 ## Итоги
 
