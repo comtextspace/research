@@ -4,6 +4,7 @@ import md_footnote from "markdown-it-footnote";
 import md_attrs from "markdown-it-attrs";
 import md_table from "markdown-it-multimd-table";
 import md_katex from "@iktakahiro/markdown-it-katex";
+import { figure as md_figure } from "@mdit/plugin-figure";
 
 export default {
   lang: "ru-RU",
@@ -81,5 +82,6 @@ export default {
       rowspan: true,
       headerless: true,
     });
+    md.use(md_figure);
   },
 };
