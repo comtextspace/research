@@ -161,11 +161,11 @@ pandoc book.md --citeproc -s -o book3.rtf --bibliography=bib.json --csl=gost-r-7
 
 Получаем три варианта отображения библиографии.
 
-![Пример стиля gost-r-7-0-5-2008.csl](images/pandoc/pandoc_citeproc_01.png)
+![Пример стиля gost-r-7-0-5-2008.csl](/images/pandoc/pandoc_citeproc_01.png)
 
-![Пример стиля gost-r-7-0-5-2008-numeric.csl](images/pandoc/pandoc_citeproc_02.png)
+![Пример стиля gost-r-7-0-5-2008-numeric.csl](/images/pandoc/pandoc_citeproc_02.png)
 
-![Пример стиля gost-r-7-0-5-2008-numeric-alphabetical.csl](images/pandoc/pandoc_citeproc_03.png)
+![Пример стиля gost-r-7-0-5-2008-numeric-alphabetical.csl](/images/pandoc/pandoc_citeproc_03.png)
 
 ## Ссылки
 

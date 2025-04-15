@@ -186,7 +186,7 @@ line or words missing between "the" and "will"?
 
 На сайте Проекта Гутенберг есть [форма поиска](https://www.gutenberg.org/ebooks/) книг:
 
-![](images/textreview/gutenberg/search.png)
+![](/images/textreview/gutenberg/search.png)
 
 Так же есть [группировка книг по категориям](https://www.gutenberg.org/ebooks/bookshelf/). Категории, вероятно, сложились исторически в ходе развития проекта, точной информации про это не нашел.
 
@@ -198,7 +198,7 @@ line or words missing between "the" and "will"?
 
 В тексте присутствует разметка относящаяся к [облегченным языкам разметки](https://way23.ru/технические-аспекты-текстологии) ([пример](https://www.gutenberg.org/files/345/345-0.txt)). Текст абзацев разбит на строки примерно одинакового размера, примерно, как в бумажных книгах:
 
-![](images/textreview/gutenberg/plain_text.png)
+![](/images/textreview/gutenberg/plain_text.png)
 
 ### HTML
 
@@ -206,7 +206,7 @@ line or words missing between "the" and "will"?
 
 Номера страниц отображаются справа от текста, к ним же привязаны якоря из меню.
 
-![](images/textreview/gutenberg/html_pages.png)
+![](/images/textreview/gutenberg/html_pages.png)
 
 ## Distributed Proofreaders
 
@@ -231,7 +231,7 @@ line or words missing between "the" and "will"?
 6. Сборка книги
 7. Вычитка результатов (Smooth reading)
 
-![](images\textreview\gutenberg\workflow.png)
+![](/images/textreview/gutenberg/workflow.png)
 
 Для участия в каждого этапе вычитки нужно обладать определенным опытом работы в системе, например, чтобы участвовать во втором этапе вычитки, нужно вычитать 300 страниц в первом этапе[^25]. Для того чтобы вообще начать вычитывать, необходимо выполнить несколько задач для ознакомления с процессом в специальном тренажере. Для более сложных этапов требований больше.
 
@@ -241,11 +241,11 @@ line or words missing between "the" and "will"?
 
 Вычитка проходит в двухпанельном редакторе. На одной панели находится скан страницы, на другой распознанный текст который нужно скорректировать. Единица вычитки — одна страница.
 
-![editor](images\textreview\gutenberg\editor.png)
+![editor](/images/textreview/gutenberg/editor.png)
 
 Для разметки использует [текстовый язык разметки](https://www.pgdp.net/wiki/DP_Official_Documentation:Formatting/Formatting_Guidelines). Формат включает в себя элементы похожие на HTML и Markdown, вероятно, является продуктом исторического развития проекта.
 
-![format_guide](images\textreview\gutenberg\format_guide.png)
+![format_guide](/images/textreview/gutenberg/format_guide.png)
 
 Один из последних этапов Smooth reading — чтение книги не с целью вычитки, а обычное, содержательное чтение. Участники этого этапа сообщают о любых проблемах найденных в ходе такого чтения. [^26]
 

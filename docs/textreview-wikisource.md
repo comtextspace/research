@@ -26,7 +26,7 @@ tags:
 
 Викитека делится на языковые разделы, в самых крупных разделах больше 100000 страниц
 
-![wikisource_01.png](images\textreview\wikisource\wikisource_02.png)
+![wikisource_01.png](/images/textreview/wikisource/wikisource_02.png)
 
 * [Статистика русскоязычного раздела](https://ru.wikisource.org/wiki/Служебная:Статистика)
 * [Статистика англоязычного раздела](https://en.wikisource.org/wiki/Special:Statistics)
@@ -45,7 +45,7 @@ tags:
 
 Существует [набор шаблонов](https://ru.wikisource.org/wiki/Справка:Шаблоны#Авторские_права) для часто используемых лицензий, при их применении достаточно указать название шаблона и на странице отобразиться полная информация о лицензировании. [Пример](https://ru.wikisource.org/wiki/Файл:Герберштейн_-_Записки_о_Московии.djvu):
 
-![wikisource_01.png](images\textreview\wikisource\wikisource_04.png)
+![wikisource_01.png](/images/textreview/wikisource/wikisource_04.png)
 
 ## Файлы и изображения
 
@@ -61,7 +61,7 @@ tags:
 
 Внешний вид редактора:
 
-![wikisource01png](images\textreview\wikisource\wikisource_01.png)
+![wikisource01png](/images/textreview/wikisource/wikisource_01.png)
 
 Возможности редактора:
 
@@ -71,13 +71,13 @@ tags:
 
 Поддерживается два вида OCR: [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) и Google OCR, выбор языка и дополнительные настройки:
 
-![wikisource01png](images\textreview\wikisource\wikisource_03.png)
+![wikisource01png](/images/textreview/wikisource/wikisource_03.png)
 
 [Последние изменения в работе системы ORC](https://meta.wikimedia.org/wiki/Community_Tech/OCR_Improvements).
 
 Для выполнения частых действий в редакторе есть раздел **Инструменты корректора** с кнопкой для склеивания строк и кнопками для добавления переносов.
 
-![wikisource01png](images\textreview\wikisource\wikisource_08.png)
+![wikisource01png](/images/textreview/wikisource/wikisource_08.png)
 
 После автоматического распознавания текста каждый абзац получается разделенным на строки:
 
@@ -111,7 +111,7 @@ tags:
 
 Особый интерес представляет функция [викификации](https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%8F:%D0%92%D0%B8%D0%BA%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80):
 
-![wikisource01png](images\textreview\wikisource\wikisource_09.png)
+![wikisource01png](/images/textreview/wikisource/wikisource_09.png)
 
 Викификатор производит типографическую обработку текста: удаляет лишние пробелы, добавляет неразрывные пробелы, преобразует кавычки к нужному виду и др. [Исходный код викификатора открыт](https://ru.wikipedia.org/wiki/MediaWiki:Gadget-wikificator.js).
 
@@ -141,13 +141,13 @@ tags:
 
 Индекс содержи описание материала, оглавление и список страниц. [Пример индекса](https://ru.wikisource.org/wiki/Индекс:Красный_библиотекарь_(журнал),_1923,_№_1.pdf):
 
-![wikisource01png](images\textreview\wikisource\wikisource_10.png)
+![wikisource01png](/images/textreview/wikisource/wikisource_10.png)
 
 Все элементы индекса редактируются, причем с возможностью использования wiki-разметки.
 
 Подсветка страниц в индексе определяет [текущий статус страницы](https://ru.wikisource.org/wiki/Справка:Состояние_страницы):
 
-![wikisource01png](images\textreview\wikisource\wikisource_11.png)
+![wikisource01png](/images/textreview/wikisource/wikisource_11.png)
 
 Помимо особых статусов для страниц связанных с вычиткой используется [общая схема проверки статей](https://ru.wikisource.org/wiki/Викитека:Правила_проверки_страниц) аналогичная схеме Википедии.
 
@@ -168,7 +168,7 @@ tags:
 
 Разметка предоставляет очень широкие возможности визуального оформления страниц. Примеры возможностей визуального оформления можно рассмотреть в книге [Жития святых по изложению свт. Димитрия Ростовского](https://ru.wikisource.org/wiki/Жития_святых_по_изложению_свт._Димитрия_Ростовского/Сентябрь/7):
 
-![wikisource_01.png](images\textreview\wikisource\wikisource_07.png)
+![wikisource_01.png](/images/textreview/wikisource/wikisource_07.png)
 
 Различными шаблонам можно добиться сходного визуального эффекта, единых правил нет и авторы используют те шаблоны которыми умеют пользоваться. Это ведет, в частности, к затруднению экспорта материалов в другие форматы. Такая проблема относится как к вычитываемым страницам, так и к оформлению оглавлений, страниц авторов, страниц собраний сочинений.
 
@@ -192,11 +192,11 @@ tags:
 
 Переводы в целом являются отдельными текстами.
 
-![wikisource01png](images\textreview\wikisource\wikisource_05.png)
+![wikisource01png](/images/textreview/wikisource/wikisource_05.png)
 
 Размещаются и редактируются переводы на страницах книг, просто как отдельный текст. Поабзацного сопоставления нет. [Пример](https://ru.wikisource.org/wiki/Страница:Герберштейн_-_Записки_о_Московии.djvu/48):
 
-![wikisource_01.png](images\textreview\wikisource\wikisource_06.png)
+![wikisource_01.png](/images/textreview/wikisource/wikisource_06.png)
 
 ## Типы страниц
 
@@ -222,7 +222,7 @@ https://en.wikisource.org/wiki/Lost_Island
 
 Такой подход перспективен, так как это ещё один элемент освобождения произведения от бумажной версии. В то же время, важно чтобы осталась прямая связь с бумажным источником и такая связь есть в Викитеке. В версии расположенной в основном пространстве, при [просмотре на сайте](https://en.wikisource.org/wiki/Lost_Island/Chapter_12), слева отображаются номера страниц:
 
-![wikisource_01.png](images\textreview\wikisource\wikisource_12.png)
+![wikisource_01.png](/images/textreview/wikisource/wikisource_12.png)
 
 Номер страницы — это ссылка на страницу вычитки на которой будет отображаться исходный скан.
 
@@ -236,13 +236,13 @@ https://en.wikisource.org/wiki/Lost_Island
 
 Для экспорта, [на страницах книг](https://en.wikisource.org/wiki/Lost_Island), справа в верху находится кнопка Download.
 
-![wikisource_01.png](images\textreview\wikisource\wikisource_13.png)
+![wikisource_01.png](/images/textreview/wikisource/wikisource_13.png)
 
-![wikisource_01.png](images\textreview\wikisource\wikisource_14.png)
+![wikisource_01.png](/images/textreview/wikisource/wikisource_14.png)
 
 В расширенной форме экспорта ([GitHub - wikimedia/ws-export](https://github.com/wikimedia/ws-export)) поддерживается больше форматов:
 
-![wikisource_01.png](images\textreview\wikisource\wikisource_15.png)
+![wikisource_01.png](/images/textreview/wikisource/wikisource_15.png)
 
 Один из недостатков экспорта — экспорт основан на том как страницы вложены друг в друга. Из-за этого нельзя экспортировать журнал в котором у каждой статьи свой автор целиком, а только по отдельным статьям. Подробнее описано в [комментариях к этой странице](https://ru.wikisource.org/wiki/Обсуждение:Красный_библиотекарь_(журнал)/1923/1) и [инциденте на Phapricator](https://phabricator.wikimedia.org/T321505). С учетом сказанного выше про разные типы страниц, возможно, это не является принципиальной проблемой, так как важнее экспорт вычитанных произведений, чем экспорт-попытка повторения бумажного оригинала.
 

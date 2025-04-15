@@ -47,25 +47,25 @@ pandoc "Example.md" -s -o "Example.docx" --reference-doc "custom-styles.docx"
 
 Откройте файл со стилями и поставьте курсор внутри таблицы, перейдите на вкладку `Работа с таблицам - Конструктор`:
 
-![Настройка стиля в Word](images/pandoc_doc_01.png)
+![Настройка стиля в Word](/images/pandoc_doc_01.png)
 
 Нажмите на выпадающий список и выберите пункт `Изменить стиль таблицы`:
 
-![Настройка стиля в Word](images/pandoc_doc_02.png)
+![Настройка стиля в Word](/images/pandoc_doc_02.png)
 
-![Настройка стиля в Word](images/pandoc_doc_03.png)
+![Настройка стиля в Word](/images/pandoc_doc_03.png)
 
 В появившемся окне нажмите `Формат` и выбирите пункт `Свойства таблицы`:
 
-![Настройка стиля в Word](images/pandoc_doc_04.png)
+![Настройка стиля в Word](/images/pandoc_doc_04.png)
 
 Выберите нужные настройки стиля:
 
-![Настройка стиля в Word](images/pandoc_doc_05.png)
+![Настройка стиля в Word](/images/pandoc_doc_05.png)
 
 Для изменения обычных стилей (не таблиц) применяется тот же принцип. Список стилей находится на вкладке `Главная`:
 
-![Настройка стиля в Word](images/pandoc_doc_06.png)
+![Настройка стиля в Word](/images/pandoc_doc_06.png)
 
 ## Ссылки
 

@@ -28,13 +28,13 @@ tags:
 
 Каталог авторов представляет из себя простую базу данных с указанием годов жизни и минимальной информации об авторах. В таком примитивном виде полезность каталога сомнительная, с учетом более развитых каталогов, например, на [Wikidata](https://www.wikidata.org) или просто на [Википедии](https://ru.wikipedia.org/wiki/Заглавная_страница).
 
-![wikisource_01.png](images\textreview\nooregistry\nooregistry01.png)
+![wikisource_01.png](/images/textreview/nooregistry/nooregistry01.png)
 
 [Калькулятор общественного достояния](https://noosphere.ru/calc) более интересен. По имени автора можно получить информацию находятся ли его произведения в общественном достоянии. Точность калькулятора неизвестна, исходного кода в открытом доступе нет.
 
-![wikisource_01.png](images\textreview\nooregistry\nooregistry02.png)
+![wikisource_01.png](/images/textreview/nooregistry/nooregistry02.png)
 
-![wikisource_01.png](images\textreview\nooregistry\nooregistry03.png)
+![wikisource_01.png](/images/textreview/nooregistry/nooregistry03.png)
 
 Проект финансируется на государственные деньги, об этом указано почти на каждой странице сайта.
 

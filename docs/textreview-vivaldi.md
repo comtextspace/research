@@ -23,25 +23,25 @@ tags:
 
 В веб-приложении некоторые материалы доступны без авторизации, а некоторые только зарегистрированным пользователям. Войти можно через аккаунты на сайтах библиотек или через популярные сервисы авторизации.
 
-![vivaldi_01.png](images\textreview\vivaldi\vivaldi_01.png)
+![vivaldi_01.png](/images/textreview/vivaldi/vivaldi_01.png)
 
 При регистрации придется согласится на передачу персональных данных:
 
-![vivaldi_01.png](images\textreview\vivaldi\vivaldi_02.png)
+![vivaldi_01.png](/images/textreview/vivaldi/vivaldi_02.png)
 
 Каждый материал снабжен карточкой с минимальным описанием и указанными правами доступа.
 
-![vivaldi_01.png](images\textreview\vivaldi\vivaldi_05.png)
+![vivaldi_01.png](/images/textreview/vivaldi/vivaldi_05.png)
 
-![vivaldi_01.png](images\textreview\vivaldi\vivaldi_06.png)
+![vivaldi_01.png](/images/textreview/vivaldi/vivaldi_06.png)
 
 Интерфейс просмотра книги ничем не отличается от любого приложения для просмотра PDF. Слева панель с эскизами страниц, есть увеличение и уменьшение масштаба.
 
-![vivaldi_01.png](images\textreview\vivaldi\vivaldi_03.png)
+![vivaldi_01.png](/images/textreview/vivaldi/vivaldi_03.png)
 
 Пример использования функции инвертирования цветов:
 
-![vivaldi_01.png](images\textreview\vivaldi\vivaldi_04.png)
+![vivaldi_01.png](/images/textreview/vivaldi/vivaldi_04.png)
 
 Если у пользователя достаточные права, то доступна возможность скачать книгу: весь PDF, или отдельные страницы.
 
@@ -60,7 +60,7 @@ Vivaldi направлен только на предоставление дос
 
 Поиск книг очень приметивен — нельзя уточнить поисковый запрос. Присутствует интересная, но в целом малополезная, функция показа скриншота части книги в поисковой выдаче.
 
-![vivaldi_01.png](images\textreview\vivaldi\vivaldi_07.png)
+![vivaldi_01.png](/images/textreview/vivaldi/vivaldi_07.png)
 
 ## Архитектура
 
@@ -106,9 +106,9 @@ Vivaldi направлен только на предоставление дос
 
 Ещё одно новое название системы — [Notio](https://notio.info). Судя по [описанию](https://www.edsd.ru/ru/o_kompanii/novosti/ot-defview-k-notio) никаких принципиальных изменений, кроме лицензионной политики нет. Документация Notion является копией документации Vivaldi с заменой слова «документы» на слово «статьи» ([Группы Vivaldi](http://help.vivaldi.ru/admin-guide/library-management/groups/) — [Группы Notio](https://docs.notio.info/admin-guide/library-management/groups/)).
 
-![vivaldi_01.png](images\textreview\vivaldi\vivaldi_08.png)
+![vivaldi_01.png](/images/textreview/vivaldi/vivaldi_08.png)
 
-![vivaldi_01.png](images\textreview\vivaldi\vivaldi_09.png)
+![vivaldi_01.png](/images/textreview/vivaldi/vivaldi_09.png)
 
 ## Заключение
 

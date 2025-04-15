@@ -61,13 +61,13 @@ tags:
 
 В публичных отчета за 2021 и за 2020 года упоминается несколько направлений связанных с применением методов искусственного интеллекта в библиотечном деле.
 
-![neb_01.png](images\textreview\neb\neb_03.png)
+![neb_01.png](/images/textreview/neb/neb_03.png)
 
-![neb_01.png](images\textreview\neb\neb_04.png)
+![neb_01.png](/images/textreview/neb/neb_04.png)
 
-![neb_01.png](images\textreview\neb\neb_01.png)
+![neb_01.png](/images/textreview/neb/neb_01.png)
 
-![neb_01.png](images\textreview\neb\neb_02.png)
+![neb_01.png](/images/textreview/neb/neb_02.png)
 
 Найти результаты этих достижений в открытом доступе не удалось.
 
@@ -75,7 +75,7 @@ tags:
 
 В 2020 году проводился хакатон [Распознайте это срочно!](https://hackathon.rusneb.ru), задача была следующая:
 
-![neb_01.png](images\textreview\neb\neb_05.png)
+![neb_01.png](/images/textreview/neb/neb_05.png)
 
 Некоторая информация есть в [специальном репозитории](https://github.com/ndlrf-rnd/school21-retropress-temporal). Детальнее про задачу рассказано [в вебинаре](https://www.youtube.com/watch?v=-Pa4GVDIU-0).
 
@@ -85,11 +85,11 @@ tags:
 
 Интерфейс стандартный: основная часть с текущей страницей, а справа панель с эскизами страниц и поиском. Есть возможность скачать весь файл (1) или отдельную страницу (2). Слева внизу кнопки для изменения масштаба документа (3).
 
-![neb_01.png](images\textreview\neb\neb_06.png)
+![neb_01.png](/images/textreview/neb/neb_06.png)
 
 В настройках можно включить режим прокрутки, при котором можно скролить следующую страницу.
 
-![neb_01.png](images\textreview\neb\neb_07.png)
+![neb_01.png](/images/textreview/neb/neb_07.png)
 
 В материалах НЭБ есть [инструкция по установке виджета просмотра документа на сторонние сайты](https://docs.google.com/document/d/17kbu9oWEwUfiCpSD_vtO4WJLbf1Io5lfI4wZbUPZV-A/edit). Актуальность и работоспособность инструкции не проверялись.
 

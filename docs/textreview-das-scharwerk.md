@@ -26,7 +26,7 @@ tags:
 
 Система написана на [Ruby](https://www.ruby-lang.org/en/) с использованием фреймворка [Ruby on Rails](https://rubyonrails.org), для фронта используется [Angular](https://angular.io). Запустить систему не удалось, простого механизма разворачивания в виде [Docker-образа](https://www.docker.com) нет, для ручного разворачивания тоже нет полной документации. Так как рабочего контура в открытом доступе тоже нет, то по внешнему виду можно судить только по скриншоту из репозитория.
 
-![](images\textreview\das-scharwerk\scharwerk_01.jpg)
+![](/images/textreview/das-scharwerk/scharwerk_01.jpg)
 
 Внешний вид стандартный для таких систем (похожий, например у [Distributed Proofreaders](textreview-gutenberg.md)) — редактор разделен на две области: скан страницы из книги и область для исправления опечаток. Слева панель с кнопками для быстрого ввода типографических элементов.
 
@@ -83,17 +83,17 @@ create_table "pages", force: :cascade do |t|
 
 Фрагменты из готовых PDF:
 
-![](images\textreview\das-scharwerk\scharwerk_pdf_01.png)
+![](/images/textreview/das-scharwerk/scharwerk_pdf_01.png)
 
-![](images\textreview\das-scharwerk\scharwerk_pdf_02.png)
+![](/images/textreview/das-scharwerk/scharwerk_pdf_02.png)
 
-![](images\textreview\das-scharwerk\scharwerk_pdf_03.png)
+![](/images/textreview/das-scharwerk/scharwerk_pdf_03.png)
 
-![](images\textreview\das-scharwerk\scharwerk_pdf_04.png)
+![](/images/textreview/das-scharwerk/scharwerk_pdf_04.png)
 
-![](images\textreview\das-scharwerk\scharwerk_pdf_05.png)
+![](/images/textreview/das-scharwerk/scharwerk_pdf_05.png)
 
-![](images\textreview\das-scharwerk\scharwerk_pdf_06.png)
+![](/images/textreview/das-scharwerk/scharwerk_pdf_06.png)
 
 Проделанная работа посвящена [Андрею Речицкому](https://ru.wikipedia.org/wiki/Писоцкий,_Анатолий_Андреевич).
 

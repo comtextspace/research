@@ -17,17 +17,17 @@ tags:
 
 В результате проекта [«Весь Толстой в один клик»](http://readingtolstoy.ru) было оцифровано собрания сочинений Льва Николаевича Толстого. Организацией работ занималась компания [ABBYY](https://ru.wikipedia.org/wiki/ABBYY), так же в участниках упоминаются [Государственный музей Л. Н. Толстого](https://tolstoymuseum.ru/) и [Музей-усадьба «Ясная Поляна»](https://ypmuseum.ru/). Проект [широко освещался в прессе](http://www.tolstoy.ru/projects/tolstoy-in-one-click/press/), а к вычитке привлекались [волонтеры](http://www.tolstoy.ru/projects/tolstoy-in-one-click/volunteer/). Основные работы проводились с июнь 2013 по декабрь 2014.
 
-![info_03](images\textreview\tolstoy\info_03.jpg)
+![info_03](/images/textreview/tolstoy/info_03.jpg)
 
 Собрание сочинений включало 90 томов (около 46000 страниц) и издавалось Государственным издательством художественной литературы в 1928—1958 годах.
 
-![info_02](images\textreview\tolstoy\info_02.jpg)
+![info_02](/images/textreview/tolstoy/info_02.jpg)
 
 Цель проекта — получение электронной версии собрания сочинений, по сути набора электронных книг в разных форматах[^1].
 
 [^1]: [https://vk.com/wall-53151365_2](https://vk.com/wall-53151365_2)
 
-![goal](images\textreview\tolstoy\goal.png)
+![goal](/images/textreview/tolstoy/goal.png)
 
 Результаты проекта размещены на сайте [tolstoy.ru](http://www.tolstoy.ru). Книги, в основном, представлены в форматах Word, EPUB, FB2 и MOBI. Некоторые книги дополнительно размещены в формате Word. Есть ссылки на онлайн просмотр (HTML), но работают не все (код ошибки 403). На сайте можно скачать как тома целиком, так и отдельные произведения, подборки писем и дневников.
 
@@ -35,11 +35,11 @@ tags:
 
 В разных этапах оцифровки участвовало более 3000 человек:
 
-![info_05](images\textreview\tolstoy\info_05.jpg)
+![info_05](/images/textreview/tolstoy/info_05.jpg)
 
-![info_05](images\textreview\tolstoy\info_06.jpg)
+![info_05](/images/textreview/tolstoy/info_06.jpg)
 
-![info_05](images\textreview\tolstoy\info_07.jpg)
+![info_05](/images/textreview/tolstoy/info_07.jpg)
 
 Самые активные участники были награждены подарками.
 
@@ -75,7 +75,7 @@ tags:
 
 Скриншот интерфейса платформы:
 
-![review_service](images\textreview\tolstoy\review_service.png)
+![review_service](/images/textreview/tolstoy/review_service.png)
 
 После загрузки файлов начался этап вычитки с привлечением волонтёров.
 
@@ -96,11 +96,11 @@ tags:
 
 Вычитка проходила в FineReader. Скриншоты от участников:
 
-![finereader](images\textreview\tolstoy\finereader1.jpg)
+![finereader](/images/textreview/tolstoy/finereader1.jpg)
 
-![finereader](images\textreview\tolstoy\finereader2.png)
+![finereader](/images/textreview/tolstoy/finereader2.png)
 
-![finereader](images\textreview\tolstoy\finereader3.jpg)
+![finereader](/images/textreview/tolstoy/finereader3.jpg)
 
 [Инструкции в формате видео](https://www.youtube.com/watch?v=w4_evjtCIj0).
 
@@ -116,11 +116,11 @@ tags:
 
 Работа сразу пошла быстро, первую вычитку провели за пару недель
 
-![10days](images\textreview\tolstoy\10days.jpg)
+![10days](/images/textreview/tolstoy/10days.jpg)
 
 Второй этап вычитки так же производили волонтеры:
 
-![step2](images\textreview\tolstoy\step2.png)
+![step2](/images/textreview/tolstoy/step2.png)
 
 > Этот этап подразумевает более тщательную проверку текста. Чтобы принять в нем участие, нужно было пройти непростой тест на сайте читаемтолстого.рф. В итоге его одолели 226 человек – они и стали аудиторами. Волонтерам-аудиторам был выделен свой призовой фонд. [^8]
 
@@ -128,7 +128,7 @@ tags:
 
 Отобранные на втором этапе аудиторы, проверяли результаты вычитки и могли отправлять их на доработку.
 
-![badwork](images\textreview\tolstoy\badwork.png)
+![badwork](/images/textreview/tolstoy/badwork.png)
 
 После аудиторской проверки пакеты сливали в файлы томов:
 
@@ -142,9 +142,9 @@ tags:
 
 [^10]: [tolstoy.ru — Волонтёры](http://www.tolstoy.ru/projects/tolstoy-in-one-click/volunteer/)
 
-![step2](images\textreview\tolstoy\step3.png)
+![step2](/images/textreview/tolstoy/step3.png)
 
-![step3end](images\textreview\tolstoy\step3end.png)
+![step3end](/images/textreview/tolstoy/step3end.png)
 
 > Хотя качество работы аудиторов было выше всяких похвал, мы все же хотели перестраховаться и устроили третий тур проверки текстов – на этот раз целыми томами. Из числа волонтеров мы сами выбрали 30 человек, хорошо зарекомендовавших себя на первых этапах, – они стали «редакторами», кроме того, на этом этапе к нам присоединилось небольшое количество новых волонтеров – лингвистов и профессиональных редакторов. [^11]
 
@@ -160,7 +160,7 @@ tags:
 
 После третьего этапа специалисты компании ABBYY совместно с компанией WEXLER.QuadLab сгенерировали электронные книги и разместили их на сайте, проект завершился в декабре 2014.
 
-![finish](images\textreview\tolstoy\finish.png)
+![finish](/images/textreview/tolstoy/finish.png)
 
 ## Файлы электронных книг
 
@@ -174,7 +174,7 @@ tags:
 
 Номера страниц отображаются по краям страницы, справа номер страницы которая начинается на данной строке, а слева номер страницы которая закончилась.
 
-![html1](images\textreview\tolstoy\html1.png)
+![html1](/images/textreview/tolstoy/html1.png)
 
 Примечания, в данный момент, не работают из-за ошибки в ссылках. Оформлены с помощью [якорей](http://htmlbook.ru/samhtml/yakorya)
 
@@ -197,7 +197,7 @@ quelque chose cette nuit?<a href="index.xhtml#n7" id="backn7" type="note">[7]</a
 
 Другие форматы есть для большинства, но не для всех томов:
 
-![formats](images\textreview\tolstoy\formats.png)
+![formats](/images/textreview/tolstoy/formats.png)
 
 Детальный анализ других форматов не производился.
 
@@ -212,11 +212,11 @@ quelque chose cette nuit?<a href="index.xhtml#n7" id="backn7" type="note">[7]</a
 
 На сайте реализован поиск по этим указателям (возможно, не по всем) и возможность прямого перехода на веб-версию тома на указанную страницу.
 
-![links](images\textreview\tolstoy\links.png)
+![links](/images/textreview/tolstoy/links.png)
 
 Кроме этого можно посмотреть граф совместных упоминаний, совместным упоминанием считается нахождение на одной странице.
 
-![graph](images\textreview\tolstoy\graph.png)
+![graph](/images/textreview/tolstoy/graph.png)
 
 Данные для построения графа можно скачать в формате XML.
 
@@ -228,10 +228,10 @@ quelque chose cette nuit?<a href="index.xhtml#n7" id="backn7" type="note">[7]</a
 
 Так как детальной информации нет, даже сейчас не ясно, исправлены ли все найденные ошибки или нет. В [одной из систем на сайте](http://report.tolstoy.ru/) они отображаются, но насколько этот список актуален неизвестно:
 
-![report](images\textreview\tolstoy\report.png)
+![report](/images/textreview/tolstoy/report.png)
 
 С точки зрения обобществления результатов, в публичном доступе, прежде всего, не хватает исходных сканов. Файлы в формате FineReader после вычитки так же не распространяются. Это не позволяет работать с исходным материалом и строить на его базе другие проекты. В открытом доступе распространены только электронные книги, предположительно, распространяемые свободно, хотя в подвале [сайта](http://www.tolstoy.ru) и размещается следующая надпись:
 
-![tostoy_copyright](images\textreview\tolstoy\tostoy_copyright.png)
+![tostoy_copyright](/images/textreview/tolstoy/tostoy_copyright.png)
 
 Используемые инструменты: FineReader и организационный портал — коммерческие продукты и принадлежат одной организации, поэтому их использование в рамках общедоступной текстологии затруднительно.

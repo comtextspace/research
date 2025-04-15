@@ -37,7 +37,7 @@ some-library.ru/pushkin/4/#32
 
 Отдельным пунктом в стандарт включено предложение отображать номер страницы с помощью выплывающей подсказки (hint).
 
-![html_pagenumber](images\textreview\istnet\html_pagenumber.png)
+![html_pagenumber](/images/textreview/istnet/html_pagenumber.png)
 
 Формат был применен на сайте с собранием сочинений Л. И. Брежнева — [brezhnev.su](http://brezhnev.su).
 
