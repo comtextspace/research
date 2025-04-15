@@ -10,3 +10,11 @@
 figure > figcaption {
   text-align: center;
 }
+
+.vp-theme-container a {
+  text-decoration: none !important; 
+}
+
+.vp-theme-container a:hover {
+  text-decoration: underline !important;
+}
