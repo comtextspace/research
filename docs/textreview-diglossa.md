@@ -118,7 +118,7 @@ JSON-файл содержит стандартную информацию, вр
 
 Пример [Яндекс-карт](https://yandex.com/maps/) с выключенными и включенными слоями отображающими пробки и общественный транспорт:
 
-![diglossa_yandexmap_01.png](F:_projects\way23_svn\Текстологический%20обзор\images\textreview\diglossa\diglossa_yandexmap_01.png)
+![diglossa_yandexmap_01.png](/images/textreview/diglossa/diglossa_yandexmap_01.png)
 
 ![diglossa_yandexmap_01.png](/images/textreview/diglossa/diglossa_yandexmap_02.png)
 
