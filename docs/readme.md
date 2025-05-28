@@ -190,6 +190,8 @@
 * **М. Ю. Морозов.** [От «апологии тоталитаризма» к «прыжку в царство свободы»: гегелевская «Философия права» как теоретический образ радикальной эмансипации человека](./aliaĵoj/морозов-от-апологии-тоталитаризма-к-прыжку-в-царство-свободы.md)
 * **Гегель.** [Метафизика](./aliaĵoj/гегель-метафизика.md)
 * **Morozov M.** [Von der „Apologie des Totalitarismus“ zum „Sprung ins Reich der Freiheit“: Hegels „Grundlinien der Philosophie des Rechts“ als theoretisches Bild der radikalen menschlichen Emanzipation](./aliaĵoj/morozov-von-der-apologie-des-totalitarismus.md)
+* **Барсуков И. С.** [Анализ философских текстов Платона и Аристотеля посредством вопросов-суждений](./aliaĵoj/барсуков-анализ-философских-текстов-платона-и-аристотеля-посредством.md)
+
 
 ### Монографии
 
