@@ -90,4 +90,10 @@ export default {
     });
     md.use(md_figure);
   },
+
+  markdown: {
+    toc: {
+      level: [2, 3, 4],
+    }
+  }
 };
