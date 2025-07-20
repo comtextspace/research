@@ -1,13 +1,14 @@
-.theme-default-content img {
+.vp-page figure img {
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .alg-center {
   text-align: center;
 }
 
-figure > figcaption {
+.vp-page figure > figcaption {
   text-align: center;
 }
 
@@ -17,4 +18,8 @@ figure > figcaption {
 
 .vp-theme-container a:hover {
   text-decoration: underline !important;
+}
+
+.vp-page blockquote p:not(:last-child) {
+  margin-bottom: 15px;
 }
