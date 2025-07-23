@@ -198,6 +198,7 @@
 * **Morozov M.** [Von der „Apologie des Totalitarismus“ zum „Sprung ins Reich der Freiheit“: Hegels „Grundlinien der Philosophie des Rechts“ als theoretisches Bild der radikalen menschlichen Emanzipation](./aliaĵoj/morozov-von-der-apologie-des-totalitarismus.md)
 * **Барсуков И. С.** [Анализ философских текстов Платона и Аристотеля посредством вопросов-суждений](./aliaĵoj/барсуков-анализ-философских-текстов-платона-и-аристотеля-посредством.md) (2004)
 * **М. Ю. Морозов.** [Платон против «диамата»: спор о предмете философской науки в свете диалектики тотального и фрагментарного](./aliaĵoj/морозов-платон-против-диамата.md) (2021)
+* **М. Ю. Морозов.** [Свобода и необходимость с позиций теории фрактальности](./aliaĵoj/морозов-свобода-и-необходимость-с-позиций-теории-фрактальности.md) (2021)
 
 ### Монографии
 
