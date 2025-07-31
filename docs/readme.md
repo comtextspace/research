@@ -158,10 +158,11 @@
 
 ## Форматы
 
-1. [atx](textreview-format-atx.md)
-2. [Textile](textreview-format-textile.md)
-2. [reStructuredText](textreview-format-restructuredtext.md)
-2. [AsciiDoc](textreview-format-asciidoc.md)
+1. [atx](textreview-format-atx.md) (22.12.2022)
+3. [Textile](textreview-format-textile.md) (12.11.2024)
+4. [reStructuredText](textreview-format-restructuredtext.md) (22.11.2024)
+5. [AsciiDoc](textreview-format-asciidoc.md) (22.11.2024)
+6. [ScholarlyMarkdown](textreview-format-scholarlymarkdown.md) (31.07.2025)
 
 ## Разное
 
