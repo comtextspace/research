@@ -52,13 +52,20 @@ TODO нужно ли ставить пробел между запятой и т
 
 ## Пробелы
 
+* ` ` — 
+* ` ` — неразрывный пробел
+* ` ` — узкий неразрывный пробел
+* `` — 
+* `` — 
+* `` — 
+
 * [type.today — Справочник: пробелы](https://type.today/ru/journal/spaces)
 
 ## Кавычки
 
 * `« »` — кавычки «ёлочки» ([Left-Pointing Double Angle Quotation Mark](https://symbl.cc/en/00AB/) и [Right-Pointing Double Angle Quotation Mark](https://symbl.cc/en/00BB/))
 * `„ “` — кавычки «лапки» ([Double Low-9 Quotation Mark](https://symbl.cc/en/201E/) и [Left Double Quotation Mark](https://symbl.cc/en/201C/))
-* `‘ ’` — [марровские](https://ru.wikipedia.org/wiki/Марр,_Николай_Яковлевич) кавычки ([Left Single Quotation Mark](https://symbl.cc/en/2018/) и [Right Single Quotation Mark](https://symbl.cc/en/2019/))
+* `‘ ’` — английские одиночные кавычки ([марровские](https://ru.wikipedia.org/wiki/Марр,_Николай_Яковлевич) кавычки) ([Left Single Quotation Mark](https://symbl.cc/en/2018/) и [Right Single Quotation Mark](https://symbl.cc/en/2019/))
 
 Как основные используются кавычки «ёлочки». Если нужны вложенные кавычки, то применяются кавычки «лапки» Например: «он прочитал «Капитал» за неделю».
 
@@ -71,6 +78,7 @@ TODO нужно ли ставить пробел между запятой и т
 * [Ководство — § 104. Кавычки](https://www.artlebedev.ru/kovodstvo/sections/104/)
 * [Кавычки «ёлочки» или „лапки“, какие кавычки использовать в русских и англоязычных текстах?](https://habr.com/en/articles/865866/)
 * [type.today — Справочник: кавычки](https://type.today/ru/journal/quotes)
+* [Википедия — Кавычки](https://ru.wikipedia.org/wiki/Кавычки)
 
 ## Многоточие
 
@@ -106,6 +114,23 @@ TODO нужно ли ставить пробел между запятой и т
 * [Википедия — Ударение](https://ru.wikipedia.org/wiki/Ударение)
 * [Википедия — Акут](https://ru.wikipedia.org/wiki/Акут)
 * [Википедия — Знак ударения](https://ru.wikipedia.org/wiki/Знак_ударения)
+* [gramota.ru — Правила русской орфографии и пунктуации (В. В. Лопатин) — Знак ударения](https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/znak-udareniya)
+
+## Апостроф
+
+Как апостроф используется символ `’` ([Right Single Quotation Mark](https://symbl.cc/en/2019/)). Этот же символ используется в качестве закрывающей английской кавычки (марровские кавычки).
+
+Символ `’` ([Right Single Quotation Mark](https://symbl.cc/en/2019/)) следует отличать от `'` ([Apostrophe](https://symbl.cc/en/0027/)), как апостроф в русскоязычной типографике используется только первый из них.
+
+Апостроф используется при передачи иностранных фамилий с начальными буквами `Д` и `О`.
+
+* `Д’Аламбер`
+* `О’Брайен`
+
+### Дополнительно
+
+* [gramota.ru — Правила русской орфографии и пунктуации (В. В. Лопатин) — Апостроф](https://gramota.ru/biblioteka/spravochniki/pravila-russkoy-orfografii-i-punktuatsii/apostrof)
+* [Википедия — Апостроф](https://ru.wikipedia.org/wiki/Апостроф)
 
 ## Надстрочные и подстрочные индексы
 
@@ -167,46 +192,58 @@ TODO нужно ли ставить пробел между запятой и т
 
 ## Дроби
 
-В Unicode есть несколько символов для часто используемых дробей.
+В Unicode есть 19 отдельных символов для часто используемых дробей.
 
 * `½` — [Vulgar Fraction One Half](https://symbl.cc/en/00BD/)
 * `⅓` — [Vulgar Fraction One Third](https://symbl.cc/en/2153/)
 * `¼` — [Vulgar Fraction One Quarter](https://symbl.cc/en/00BC/)
-
+* `⅕` — [Vulgar Fraction One Fifth](https://symbl.cc/en/2155/)
+* `⅙` — [Vulgar Fraction One Sixth](https://symbl.cc/en/2159/)
 * `⅐` — [Vulgar Fraction One Seventh](https://symbl.cc/en/2150/)
+* `⅛` — [Vulgar Fraction One Eighth](https://symbl.cc/en/215B/)
 * `⅑` — [Vulgar Fraction One Ninth](https://symbl.cc/en/2151/)
 * `⅒` — [Vulgar Fraction One Tenth](https://symbl.cc/en/2152/)
-
-* `` — []()
-
+* `⅔` — [Vulgar Fraction Two Thirds](https://symbl.cc/en/2154/)
+* `⅖` — [Vulgar Fraction Two Fifths](https://symbl.cc/en/2156/)
 * `¾` — [Vulgar Fraction Three Quarters](https://symbl.cc/en/00BE/)
+* `⅗` — [Vulgar Fraction Three Fifths](https://symbl.cc/en/2157/)
+* `⅜` — [Vulgar Fraction Three Eighths](https://symbl.cc/en/215C/)
+* `⅘` — [Vulgar Fraction Four Fifths](https://symbl.cc/en/2158/)
+* `⅚` — [Vulgar Fraction Five Sixths](https://symbl.cc/en/215A/)
+* `⅝` — [Vulgar Fraction Five Eighths](https://symbl.cc/en/215D/)
+* `⅞` — [Vulgar Fraction Seven Eighths](https://symbl.cc/en/215E/)
 
+Кроме того с помощью символов надстрочных и подстрочных индексов можно писать дроби не входящие в этот список. Для этого есть два вспомогательных символа.
 
-* `` — []()
-* `` — []()
-* `` — []()
+* `⅟` — [Fraction Numerator One](https://symbl.cc/en/215F/)
+* `⁄` — [Fraction Slash](https://symbl.cc/en/2044/)
 
-Дроби-символы
-Дроби составные, символ деления и цифры
+Примеры использования:
 
+* `⅟₁₀₀`
+* `⅟₁₃`
+* `¹²⁄₁₅`
+
+Обратите внимание, что символ `⁄` ([Fraction Slash](https://symbl.cc/en/2044/)) это отличный символ от `/` ([Solidus](https://symbl.cc/en/002F/)).
 
 ## Штрих
 
 Штрихи, штришки и штришочки
 https://habr.com/ru/post/25531/
 
+Градусы минуты секунды
 
 ## Математика
 
+* `a × b`
+
 Символы умножения и деления
 
+## Отдельные символы
+
+Символы валют
+
+Номер, параграф
 
 ## Международные различия
-
-## Unicode
-
-https://symbl.cc/en/2013/
-
-
-
 
