@@ -74,19 +74,19 @@
 
 Вся информация для рассмотрения проектов, за исключением случаев о которых указано явно, получена из открытых источников.
 
-1. [Истнет](textreview-istnet.md)
-2. [Весь Толстой один клик](textreview-tolstoy.md)
-3. [Project Gutenberg](textreview-gutenberg.md)
-4. [Смерека](textreview-smereka.md)
-5. [Библиотека электронных ресурсов исторического факультета МГУ](textreview-mgu-library.md)
-6. [Диглоса (Diglossa)](textreview-diglossa.md)
-7. [Сократ Онлайн](textreview-sokrat-online.md)
-8. [Das Scharwerk](textreview-das-scharwerk.md)
-9. [Vivaldi, DefView, БиблиоКербер, Notio](textreview-vivaldi.md)
-10. [ИнфоРост](textreview-inforost.md)
-11. [Национальная электронная библиотека (НЭБ)](textreview-rusneb.md)
-12. [Викитека (wikisource.org)](textreview-wikisource.md)
-13. [Федеральная Резервная Система Банков Знаний](textreview-nooregistry.md)
+1. [Истнет](textreview-istnet.md) (25.09.2021)
+2. [Весь Толстой один клик](textreview-tolstoy.md) (26.09.2021)
+3. [Project Gutenberg](textreview-gutenberg.md) (13.03.2022)
+4. [Смерека](textreview-smereka.md) (24.09.2022)
+5. [Библиотека электронных ресурсов исторического факультета МГУ](textreview-mgu-library.md) (26.09.2022)
+6. [Диглоса (Diglossa)](textreview-diglossa.md) (07.10.2022)
+7. [Сократ Онлайн](textreview-sokrat-online.md) (13.10.2022)
+8. [Das Scharwerk](textreview-das-scharwerk.md) (15.10.2022)
+9. [Vivaldi, DefView, БиблиоКербер, Notio](textreview-vivaldi.md) (22.10.2022)
+10. [ИнфоРост](textreview-inforost.md) (27.10.2022)
+11. [Национальная электронная библиотека (НЭБ)](textreview-rusneb.md) (09.11.2022)
+12. [Викитека (wikisource.org)](textreview-wikisource.md) (14.11.2022)
+13. [Федеральная Резервная Система Банков Знаний](textreview-nooregistry.md) (25.11.2022)
 
 ## Форматы
 
