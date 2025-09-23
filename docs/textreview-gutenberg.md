@@ -18,6 +18,7 @@ tags:
 [Project Gutenberg](https://www.gutenberg.org) основан Майклом Хартом в 1971 году. Это один из старейших (если не самый старый) проектов по оцифровке литературы который ещё продолжает работать. Идея Майкла была в том что в компьютеры могут быть полезны не только для вычислений, а ещё для хранение и поиска литературы.[^1] Он сразу начал оцифровывать книги в виде вычитанного текста, а не в виде сканов. Декларируемая цель проекта: поощрять создание и распространение электронных книг. [^2]
 
 [^1]: [The History and Philosophy of Project Gutenberg, by Michael Hart](https://www.gutenberg.org/about/background/history_and_philosophy.html)
+
 [^2]: [The Project Gutenberg Mission Statement, by Michael Hart](https://www.gutenberg.org/about/background/mission_statement.html)
 
 Скорость добавления книг росла со временем[^3][^4], суммарное количество добавленных книг по годам:
@@ -34,6 +35,7 @@ tags:
 - сейчас более 60000 книг
 
 [^3]: [Project Gutenberg (1971-2008) by Marie Lebert](https://www.gutenberg.org/ebooks/27045)
+
 [^4]: [50 Years at Project Gutenberg](https://blog.pgdp.net/2021/07/04/50-years-at-project-gutenberg/)
 
 Число волонтеров участвовавших и участвующих в проекте трудно подсчитать: речь идет о десятках тысяч людей.[^5]
@@ -59,11 +61,13 @@ tags:
 Проект Гутенберг минимально ограничивает участников. Каждый вносит свой вклад в той мере и форме как он хочет. Главное, чтобы вклад соответствовал целям проекта и удовлетворял минимуму ограничений, вроде ограничений связанных с копирайтом. [^9] Структура управления существует, но она минимальна.[^10]
 
 [^9]: [Project Gutenberg Principle of Minimal Regulation/ Administration, by Michael Hart and Greg Newby](https://www.gutenberg.org/about/background/minimal_regulation.html)
+
 [^10]: [Administrivia, by Michael Hart](https://www.gutenberg.org/about/background/administrivia.html)
 
 Для обеспечения административной составляющей проекта в 2000 году был создан фонд «Project Gutenberg Literary Archive Foundation». [^11] Фонд в том числе принимает пожертвования, но основная часть работы: администрирование сайта и наполнение его контентом, построена на вкладе волонтеров.[^12]
 
 [^11]: [50 Years at Project Gutenberg](https://blog.pgdp.net/2021/07/04/50-years-at-project-gutenberg/)
+
 [^12]: [The Project Gutenberg Literary Archive Foundation](https://www.gutenberg.org/about/pglaf.html).
 
 ## Основной формат
@@ -71,7 +75,9 @@ tags:
 Основным форматом хранения книг служит простой текстовый файл.[^13] Другие форматы, из основного текстового формата генерируются автоматически[^14], в том числе на других сайтах[^15].
 
 [^13]: [Why is Project Gutenberg so set on using plain text?](https://www.gutenberg.org/help/faq.html#why-is-project-gutenberg-so-set-on-using-plain-text)
+
 [^14]: [File Formats Utilized by Project Gutenberg](https://www.gutenberg.org/help/file_formats.html)
+
 [^15]:
     [Project Gutenberg (1971-2008) by Marie Lebert](https://www.gutenberg.org/ebooks/27045)
 
@@ -241,11 +247,11 @@ line or words missing between "the" and "will"?
 
 Вычитка проходит в двухпанельном редакторе. На одной панели находится скан страницы, на другой распознанный текст который нужно скорректировать. Единица вычитки — одна страница.
 
-![editor](/images/textreview/gutenberg/editor.png)
+![](/images/textreview/gutenberg/editor.png)
 
 Для разметки использует [текстовый язык разметки](https://www.pgdp.net/wiki/DP_Official_Documentation:Formatting/Formatting_Guidelines). Формат включает в себя элементы похожие на HTML и Markdown, вероятно, является продуктом исторического развития проекта.
 
-![format_guide](/images/textreview/gutenberg/format_guide.png)
+![](/images/textreview/gutenberg/format_guide.png)
 
 Один из последних этапов Smooth reading — чтение книги не с целью вычитки, а обычное, содержательное чтение. Участники этого этапа сообщают о любых проблемах найденных в ходе такого чтения. [^26]
 
