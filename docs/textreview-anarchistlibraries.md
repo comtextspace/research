@@ -71,7 +71,7 @@ tags:
 * Исходный текст в формате Muse
 * Архив с исходным текстом и вложениями. В архиве — текст в форматах XeLaTeX, Muse и HTML.
 
-![PDF для двухсторонней печати](/images/textreview/anarchistlibraries/textreview-anarchistlibraries-11.png)
+![PDF для двухсторонней печати.](/images/textreview/anarchistlibraries/textreview-anarchistlibraries-11.png)
 
 ## Исходный текст
 
