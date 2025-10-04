@@ -90,7 +90,8 @@
 11. [Национальная электронная библиотека (НЭБ)](textreview-rusneb.md) (09.11.2022)
 12. [Викитека (wikisource.org)](textreview-wikisource.md) (14.11.2022)
 13. [Федеральная Резервная Система Банков Знаний](textreview-nooregistry.md) (25.11.2022)
-13. [Библиотека Анархизма](textreview-anarchistlibraries.md) (03.10.2025)
+14. [Библиотека Анархизма](textreview-anarchistlibraries.md) (03.10.2025)
+15. [Общество распространения полезных книг (ОРПК)](textreview-orpk.md) (04.10.2025)
 
 ## Форматы
 
