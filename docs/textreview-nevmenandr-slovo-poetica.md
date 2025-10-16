@@ -88,6 +88,17 @@ tags:
 
 ![](/images/textreview/textreview-nevmenandr-slovo-poetica/textreview-nevmenandr-slovo-poetica-11.png)
 
+На сайте доступны следующие переводы:
+
+* Перевод М. Гаспарова
+* Перевод В. Аппельрота
+* Перевод Н. Новосадского
+* Translated by W. H. Fyfe
+* Translated by S. H. Butcher
+* Translated by I. Bywater
+* Traduction Ch. Emile Ruelle
+* Перевод Абу-Бисра, не позднее 940 г.
+
 ## Заключение
 
 Параллельные переводы важны и нужны. В [описании проекта](http://nevmenandr.net/slovo/pro.php) приведена удачная цитата на эту тему:
