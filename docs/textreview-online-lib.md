@@ -1,6 +1,6 @@
 ---
-title: "Текстобзор: русскоязычные электронные библиотеки (ilibrary.ru, traumlibrary.ru, royallib.com)"
-date: "2025-10-15"
+title: "Текстобзор: русскоязычные электронные библиотеки (ilibrary.ru, traumlibrary.ru, RoyalLib.com)"
+date: "2025-10-25"
 categories:
   - "текстология"
 tags:
