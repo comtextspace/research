@@ -20,7 +20,8 @@
 
 ## Proofreader
 
-* [Инструкция по Proofreader](proofreader-guide.md)
+* [Инструкция для Proofreader](proofreader-guide.md) (декабрь 2025)
+* [Инструкция для Proofreader](proofreader-guide.md) (старая)
 
 ## Статьи и заметки
 

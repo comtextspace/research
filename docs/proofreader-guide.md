@@ -1,4 +1,4 @@
-# Инструкция по Proofreader
+# Инструкция для Proofreader
 
 [[toc]]
 
