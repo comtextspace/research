@@ -114,34 +114,19 @@
 
 ![](/images/proofreader-guide2/proofreader-guide05-1.png)
 
-Приведите формат текста в соответствие с оригиналом. Некоторые виды форматирования можно осуществить с помощью кнопок редактора.
+Приведите формат текста в соответствие с оригиналом. Некоторые виды форматирования можно осуществить с помощью кнопок редактора:
 
 |-----------------|-----------------|
 | ![](/images/proofreader-guide2/proofreader-guide-btn01.png) | Жирный (Сtrl + B)
+| ![](/images/proofreader-guide2/proofreader-guide-btn02.png) | Курсив (Сtrl + I) |
+| ![](/images/proofreader-guide2/proofreader-guide-btn03.png) | Параграфы |
+| ![](/images/proofreader-guide2/proofreader-guide-btn04.png) | Сноски |
+| ![](/images/proofreader-guide2/proofreader-guide-btn05.png) | Отменить (Сtrl + Z) |
+| ![](/images/proofreader-guide2/proofreader-guide-btn06.png) | Повторить (Сtrl + Y) |
 
+Укажите номер **страницы из книги** в специальном поле внизу.
 
-
-
-![](/images/proofreader-guide2/proofreader-guide-btn02.png)
-
-Курсив (Сtrl + I)
-
-![](/images/proofreader-guide2/proofreader-guide-btn03.png)
-
-Параграфы
-
-![](/images/proofreader-guide2/proofreader-guide-btn04.png)
-
-Сноски
-
-![](/images/proofreader-guide2/proofreader-guide-btn05.png)
-
-Отменить (Сtrl + Z)
-
-![](/images/proofreader-guide2/proofreader-guide-btn06.png)
-
-Повторить (Сtrl + Y)
-
+*Внимание! Нумерация страниц в сканах и на сайте может отличаться. Впишите номер страницы, который Вы видите на скане страницы книги.*
 
 Установите статус **Форматирование**. Затем нажмите **Сохранить и далее**, чтобы перейти к редактированию следующей страницы книги.
 
