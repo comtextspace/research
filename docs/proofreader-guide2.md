@@ -116,12 +116,12 @@
 
 Приведите формат текста в соответствие с оригиналом. Некоторые виды форматирования можно осуществить с помощью кнопок редактора:
 
-|-----------------|-----------------|
-| ![](/images/proofreader-guide2/proofreader-guide-btn01.png) | Жирный (Сtrl + B)
-| ![](/images/proofreader-guide2/proofreader-guide-btn02.png) | Курсив (Сtrl + I) |
-| ![](/images/proofreader-guide2/proofreader-guide-btn03.png) | Параграфы |
-| ![](/images/proofreader-guide2/proofreader-guide-btn04.png) | Сноски |
-| ![](/images/proofreader-guide2/proofreader-guide-btn05.png) | Отменить (Сtrl + Z) |
+|-------------------------------------------------------------|----------------------|
+| ![](/images/proofreader-guide2/proofreader-guide-btn01.png) | Жирный (Сtrl + B)    |
+| ![](/images/proofreader-guide2/proofreader-guide-btn02.png) | Курсив (Сtrl + I)    |
+| ![](/images/proofreader-guide2/proofreader-guide-btn03.png) | Параграфы            |
+| ![](/images/proofreader-guide2/proofreader-guide-btn04.png) | Сноски               |
+| ![](/images/proofreader-guide2/proofreader-guide-btn05.png) | Отменить (Сtrl + Z)  |
 | ![](/images/proofreader-guide2/proofreader-guide-btn06.png) | Повторить (Сtrl + Y) |
 
 Укажите номер **страницы из книги** в специальном поле внизу.
