@@ -110,7 +110,38 @@
 
 ![](/images/proofreader-guide2/proofreader-guide05.png)
 
-Исправьте опечатки в тексте книги, сверяясь с изображением страницы. Затем убедитесь, что в тексте отсутствует номер страницы — его следует указать в специальном окне внизу страницы.
+Если в тексте книги присутствует номер страницы — удалите его. Исправьте опечатки, сверяясь с изображением страницы.
+
+![](/images/proofreader-guide2/proofreader-guide05-1.png)
+
+Приведите формат текста в соответствие с оригиналом. Некоторые виды форматирования можно осуществить с помощью кнопок редактора.
+
+|-----------------|-----------------|
+| ![](/images/proofreader-guide2/proofreader-guide-btn01.png) | Жирный (Сtrl + B)
+
+
+
+
+![](/images/proofreader-guide2/proofreader-guide-btn02.png)
+
+Курсив (Сtrl + I)
+
+![](/images/proofreader-guide2/proofreader-guide-btn03.png)
+
+Параграфы
+
+![](/images/proofreader-guide2/proofreader-guide-btn04.png)
+
+Сноски
+
+![](/images/proofreader-guide2/proofreader-guide-btn05.png)
+
+Отменить (Сtrl + Z)
+
+![](/images/proofreader-guide2/proofreader-guide-btn06.png)
+
+Повторить (Сtrl + Y)
+
 
 Установите статус **Форматирование**. Затем нажмите **Сохранить и далее**, чтобы перейти к редактированию следующей страницы книги.
 
