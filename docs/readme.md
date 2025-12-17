@@ -12,6 +12,7 @@
 
 * [Формат Comtext](format-comtext.md)
 * [История изменений формата Comtext](format-comtext-changelog.md)
+* [Инструкция по созданию сайта](https://github.com/comtextspace/test-site)
 * [Инструкция текстологической работы](git-guide.md)
 * [Инструкция по типографике и Unicode](инструкция-по-типографике-и-unicode.md)
 * [Похожие проекты](related-projects.md)
