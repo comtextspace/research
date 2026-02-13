@@ -75,7 +75,6 @@ export default {
     contributors: false,
     lastUpdatedText: "Последниее изменение",
     navbar: [
-      { text: "Главная", link: "/" },
       { text: "Обновления в TG", link: "https://t.me/pensadoj" },
     ],
   }),
