@@ -100,7 +100,8 @@
 15. [Общество распространения полезных книг (ОРПК)](textreview-orpk.md) (04.10.2025)
 15. [Архив документов «Прожито»](textreview-prozhito.md) (04.10.2025)
 16. [Параллельные переводы «Слова о полку Игореве» и «Поэтики» Аристотеля](textreview-nevmenandr-slovo-poetica.md) (15.10.2025)
-16. [Текстобзор: русскоязычные электронные библиотеки (ilibrary.ru, traumlibrary.ru, RoyalLib.com)](textreview-online-lib.md) (25.10.2025)
+16. [Русскоязычные электронные библиотеки (ilibrary.ru, traumlibrary.ru, RoyalLib.com)](textreview-online-lib.md) (25.10.2025)
+16. [CoolLib](textreview-coollib.md) (14.02.2026)
 
 ## Форматы
 
