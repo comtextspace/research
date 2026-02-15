@@ -1,5 +1,5 @@
 ---
-title: "Текстобзор: Викитека (wikisource.org)"
+title: "Текстобзор 12: Викитека (wikisource.org)"
 date: "2022-11-14"
 categories: 
   - "текстология"

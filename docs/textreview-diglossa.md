@@ -1,5 +1,5 @@
 ---
-title: "Текстобзор: Diglossa"
+title: "Текстобзор 6: Diglossa"
 date: "2022-10-07"
 categories:
   - "текстология"

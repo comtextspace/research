@@ -1,5 +1,5 @@
 ---
-title: "Текстобзор: Project Gutenberg"
+title: "Текстобзор 3: Project Gutenberg"
 date: "2022-03-13"
 categories:
   - "Текстология"

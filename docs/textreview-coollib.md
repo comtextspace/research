@@ -1,5 +1,5 @@
 ---
-title: "Текстобзор: CoolLib"
+title: "Текстобзор 19: CoolLib"
 date: "2026-02-14"
 categories:
   - "текстология"

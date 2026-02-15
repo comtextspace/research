@@ -1,5 +1,5 @@
 ---
-title: "Текстобзор: Das Scharwerk"
+title: "Текстобзор 8: Das Scharwerk"
 date: "2022-10-15"
 categories:
   - "текстология"

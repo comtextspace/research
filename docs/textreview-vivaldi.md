@@ -1,5 +1,5 @@
 ---
-title: "Текстобзор: Vivaldi, DefView, БиблиоКербер, Notio"
+title: "Текстобзор 9: Vivaldi, DefView, БиблиоКербер, Notio"
 date: "2022-10-22"
 categories:
   - "текстология"
