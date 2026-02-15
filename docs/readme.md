@@ -103,6 +103,7 @@
 17. [Параллельные переводы «Слова о полку Игореве» и «Поэтики» Аристотеля](textreview-nevmenandr-slovo-poetica.md) (15.10.2025)
 18. [Русскоязычные электронные библиотеки (ilibrary.ru, traumlibrary.ru, RoyalLib.com)](textreview-online-lib.md) (25.10.2025)
 19. [CoolLib](textreview-coollib.md) (14.02.2026)
+19. [Флибуста](textreview-flibusta.md) (14.02.2026)
 
 ## Форматы
 
