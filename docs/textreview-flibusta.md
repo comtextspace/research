@@ -1,6 +1,6 @@
 ---
 title: "Текстобзор 20: Флибуста"
-date: "2026-02-17"
+date: "2026-02-16"
 categories:
   - "текстология"
 tags:
@@ -9,7 +9,7 @@ tags:
 
 # {{ $frontmatter.title }}
 
-**17.02.2026**
+**16.02.2026**
 
 ![](/images/textreview/flibusta/flibusta_01.png)
 
