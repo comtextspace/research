@@ -15,6 +15,8 @@ tags:
 
 ## Описание
 
+![](/images/textreview/bureau/bureau_14.png)
+
 На [сайте Бюро Горбунова](https://bureau.ru) продаются [электронные книги по подписке](https://bureau.ru/books/).
 Концепция электронных книг Бюро раскрыта [в Манифесте](https://bureau.ru/books/manifesto/):
 
