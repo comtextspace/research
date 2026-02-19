@@ -73,7 +73,7 @@ export default {
   theme: defaultTheme({
     sidebar: false,
     contributors: false,
-    lastUpdatedText: "Последниее изменение",
+    lastUpdatedText: "Последнее изменение",
     navbar: [
        { text: "Mastodon", link: "https://defcon.social/@pensadoj" },
        { text: "Telegram", link: "https://t.me/pensadoj" }
