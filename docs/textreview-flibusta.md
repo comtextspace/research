@@ -11,12 +11,15 @@ tags:
 
 **16.02.2026**
 
-![](/images/textreview/flibusta/flibusta_01.png)
+[Другие выпуски Текстобзора](https://research.comtext.space/#текстобзор)
 
+## Оглавление
 
 [[TOC]]
 
 ## Описание
+
+![](/images/textreview/flibusta/flibusta_01.png)
 
 [Флибуста](https://flibusta.is) — онлайн-библиотека, основанная на формате FB2.
 
