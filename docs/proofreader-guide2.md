@@ -87,47 +87,40 @@
 
 ## Пример работы в Proofreader
 
-Откройте в браузере [страницу входа в Proofreader](http://proofreader.comtext.space).
+Откройте в браузере [страницу входа в Proofreader](https://proofreader.comtext.space/login).
 
-Введите **Имя пользователя** и **Пароль**, затем нажмите кнопку
-**Войти**.
+Введите **Имя пользователя** и **Пароль**, затем нажмите кнопку **Войти**.
 
-![](/images/proofreader-guide2/proofreader-guide01.png)
+![](./images/proofreader-guide2/image1.png)
 
-Откройте список страниц для редактирования: для этого нажмите **Страницы** или **Изменить**.
+В появившемся списке выберите **книгу**, а затем **страницу** для редактирования.
 
-![](/images/proofreader-guide2/proofreader-guide02.png)
+![](./images/proofreader-guide2/image2.png)
 
-В правом меню выберите нужную книгу (1), после этого в таблице, в центре экрана, останутся только страницы выбранной книги. Затем выберите нужную страницу (2).
-
-![](/images/proofreader-guide2/proofreader-guide03.png)
-
-Для удобства работы, меню слева можно свернуть с помощью сплиттера.
-
-![](/images/proofreader-guide2/proofreader-guide04.png)
+![](./images/proofreader-guide2/image3.png)
 
 Перед началом вычитки, для удобства дальнейшего редактирования, нажмите кнопку **Улучшить форматирование**. После этого абзацы склеятся в одну строку.
 
-![](/images/proofreader-guide2/proofreader-guide05.png)
+![](./images/proofreader-guide2/image4.png)
 
 Если в тексте книги присутствует номер страницы — удалите его. Исправьте опечатки, сверяясь с изображением страницы.
 
-![](/images/proofreader-guide2/proofreader-guide05-1.png)
+![](./images/proofreader-guide2/image5.png)
 
-Приведите формат текста в соответствие с оригиналом. Некоторые виды форматирования можно осуществить с помощью кнопок редактора:
+Приведите формат текста в соответствие с оригиналом. Некоторые виды форматирования можно осуществить с помощью кнопок редактора. Используйте клавиатурные сокращения и масштабирование для удобства вычитки.
 
-|-------------------------------------------------------------|----------------------|
-| ![](/images/proofreader-guide2/proofreader-guide-btn01.png) | Жирный (Сtrl + B)    |
-| ![](/images/proofreader-guide2/proofreader-guide-btn02.png) | Курсив (Сtrl + I)    |
-| ![](/images/proofreader-guide2/proofreader-guide-btn03.png) | Параграфы            |
-| ![](/images/proofreader-guide2/proofreader-guide-btn04.png) | Сноски               |
-| ![](/images/proofreader-guide2/proofreader-guide-btn05.png) | Отменить (Сtrl + Z)  |
-| ![](/images/proofreader-guide2/proofreader-guide-btn06.png) | Повторить (Сtrl + Y) |
+Подробные инструкции:
+
+* [Формат Comtext](https://research.comtext.space/format-comtext.html)
+* [Правила пунктуации при оцифровке текстов](https://research.comtext.space/правила-пунктуации-при-оцифровке-текстов.html)
+* [Инструкция по типографике и Unicode](https://research.comtext.space/инструкция-по-типографике-и-unicode.html)
+
+![](./images/proofreader-guide2/image6.png)
 
 Укажите номер **страницы из книги** в специальном поле внизу.
 
 *Внимание! Нумерация страниц в сканах и на сайте может отличаться. Впишите номер страницы, который Вы видите на скане страницы книги.*
 
-Установите статус **Форматирование**. Затем нажмите **Сохранить и далее**, чтобы перейти к редактированию следующей страницы книги.
+Установите статус **Форматирование**. Затем нажмите **Далее**, чтобы сохранить изменения и перейти к редактированию следующей страницы книги.
 
-![](/images/proofreader-guide2/proofreader-guide06.png)
+![](./images/proofreader-guide2/image7.png)
