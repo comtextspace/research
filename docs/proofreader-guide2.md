@@ -91,21 +91,21 @@
 
 Введите **Имя пользователя** и **Пароль**, затем нажмите кнопку **Войти**.
 
-![](./images/proofreader-guide2/image1.png)
+![](/images/proofreader-guide2/image1.png)
 
 В появившемся списке выберите **книгу**, а затем **страницу** для редактирования.
 
-![](./images/proofreader-guide2/image2.png)
+![](/images/proofreader-guide2/image2.png)
 
-![](./images/proofreader-guide2/image3.png)
+![](/images/proofreader-guide2/image3.png)
 
 Перед началом вычитки, для удобства дальнейшего редактирования, нажмите кнопку **Улучшить форматирование**. После этого абзацы склеятся в одну строку.
 
-![](./images/proofreader-guide2/image4.png)
+![](/images/proofreader-guide2/image4.png)
 
 Если в тексте книги присутствует номер страницы — удалите его. Исправьте опечатки, сверяясь с изображением страницы.
 
-![](./images/proofreader-guide2/image5.png)
+![](/images/proofreader-guide2/image5.png)
 
 Приведите формат текста в соответствие с оригиналом. Некоторые виды форматирования можно осуществить с помощью кнопок редактора. Используйте клавиатурные сокращения и масштабирование для удобства вычитки.
 
@@ -115,7 +115,7 @@
 * [Правила пунктуации при оцифровке текстов](https://research.comtext.space/правила-пунктуации-при-оцифровке-текстов.html)
 * [Инструкция по типографике и Unicode](https://research.comtext.space/инструкция-по-типографике-и-unicode.html)
 
-![](./images/proofreader-guide2/image6.png)
+![](/images/proofreader-guide2/image6.png)
 
 Укажите номер **страницы из книги** в специальном поле внизу.
 
@@ -123,4 +123,4 @@
 
 Установите статус **Форматирование**. Затем нажмите **Далее**, чтобы сохранить изменения и перейти к редактированию следующей страницы книги.
 
-![](./images/proofreader-guide2/image7.png)
+![](/images/proofreader-guide2/image7.png)
