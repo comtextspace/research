@@ -16,5 +16,7 @@
 
 ![](/images/mastodon-guide/mastodon-guide-02.png)
 
+Переписка сохраняется в разделе `Личные упоминания`:
 
+![](/images/mastodon-guide/mastodon-guide-03.png)
 
