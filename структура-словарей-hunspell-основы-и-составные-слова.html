@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.21" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <meta name="theme-color" content="#ffffff"><link rel="icon" href="/assets/favicons/favicon.svg"><link rel="mask-icon" href="/assets/favicons/mask-icon.svg" color="red"><link rel="apple-touch-icon" href="/assets/favicons/apple-touch-icon.png"><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.css"><script>
+	    var __rm__config = {
+        projectId: '-NG0iw9JVLvjofRZaPel',
+        locale: 'ru',
+        contextWidget: 0,
+        embedBtn: 0,
+        floatingBtn: 1,
+        floatingBtnPosition: 'left',
+        floatingBtnStyle: 'light',
+			};
+    </script><script src="https://widget.revisionme.com/app.js" defer="defer" id="rm_app_script"></script><title>Структура словарей Hunspell: основы и составные слова | Текстология</title><meta name="description" content="Статьи">
+    <link rel="preload" href="/assets/style-Ca80u5vF.css" as="style"><link rel="stylesheet" href="/assets/style-Ca80u5vF.css">
+    <link rel="modulepreload" href="/assets/app-3vC-laG6.js"><link rel="modulepreload" href="/assets/структура-словарей-hunspell-основы-и-составные-слова.html-DlY6K0we.js">
+    <link rel="prefetch" href="/assets/format-comtext-changelog.html-D4GrOBUR.js" as="script"><link rel="prefetch" href="/assets/format-comtext.html-k54r4hEN.js" as="script"><link rel="prefetch" href="/assets/fzr-review.html-COBJczCE.js" as="script"><link rel="prefetch" href="/assets/git-guide.html-BG2smqgw.js" as="script"><link rel="prefetch" href="/assets/mastodon-guide.html-uxiQVHyk.js" as="script"><link rel="prefetch" href="/assets/pandoc-abbreviations.html-De4Q71wx.js" as="script"><link rel="prefetch" href="/assets/pandoc-basic.html-B5hNCbJN.js" as="script"><link rel="prefetch" href="/assets/pandoc-citations.html-Bo58Kspp.js" as="script"><link rel="prefetch" href="/assets/pandoc-debug.html-D0KSUzmt.js" as="script"><link rel="prefetch" href="/assets/pandoc-file-scope-preserve-tabs-tab-stop.html-BLEfu37V.js" as="script"><link rel="prefetch" href="/assets/pandoc-lua-filters.html-Bbo7IvG_.js" as="script"><link rel="prefetch" href="/assets/pandoc-md-to-doc.html-cMCQIRBH.js" as="script"><link rel="prefetch" href="/assets/pandoc-metadata.html-BpYYRUdT.js" as="script"><link rel="prefetch" href="/assets/pandoc-template.html-CW9wxsoD.js" as="script"><link rel="prefetch" href="/assets/party-or-cult.html-V62PubhZ.js" as="script"><link rel="prefetch" href="/assets/proofreader-guide.html-DizXloYF.js" as="script"><link rel="prefetch" href="/assets/proofreader-guide2.html-CtvOiOwN.js" as="script"><link rel="prefetch" href="/assets/index.html-f7tlYfGe.js" as="script"><link rel="prefetch" href="/assets/related-projects.html-mrsyhKOA.js" as="script"><link rel="prefetch" href="/assets/textreview-anarchistlibraries.html-B-z4lFpo.js" as="script"><link rel="prefetch" href="/assets/textreview-bureau.html-BeI_NlYg.js" as="script"><link rel="prefetch" href="/assets/textreview-coollib.html-eY6q45Fw.js" as="script"><link rel="prefetch" href="/assets/textreview-das-scharwerk.html-BjHfx1rd.js" as="script"><link rel="prefetch" href="/assets/textreview-diglossa.html-CqH8LLoJ.js" as="script"><link rel="prefetch" href="/assets/textreview-flibusta.html-DTuH7an6.js" as="script"><link rel="prefetch" href="/assets/textreview-format-asciidoc.html-Dequo00G.js" as="script"><link rel="prefetch" href="/assets/textreview-format-atx.html-K1oagR6t.js" as="script"><link rel="prefetch" href="/assets/textreview-format-restructuredtext.html-BuRjhhZw.js" as="script"><link rel="prefetch" href="/assets/textreview-format-scholarlymarkdown.html-CRp0xAAc.js" as="script"><link rel="prefetch" href="/assets/textreview-format-textile.html-Dt0teCYv.js" as="script"><link rel="prefetch" href="/assets/textreview-gutenberg.html-XL8OyUtl.js" as="script"><link rel="prefetch" href="/assets/textreview-inforost.html-DS33Bt1C.js" as="script"><link rel="prefetch" href="/assets/textreview-istnet.html-DnNDu9xq.js" as="script"><link rel="prefetch" href="/assets/textreview-lenin-ocr.html-D9vpa4S7.js" as="script"><link rel="prefetch" href="/assets/textreview-mgu-library.html-CNUer64Y.js" as="script"><link rel="prefetch" href="/assets/textreview-nevmenandr-slovo-poetica.html-D7ikDn8L.js" as="script"><link rel="prefetch" href="/assets/textreview-nooregistry.html-76cHPIu7.js" as="script"><link rel="prefetch" href="/assets/textreview-online-lib.html-B7hF_WHK.js" as="script"><link rel="prefetch" href="/assets/textreview-orpk.html-DxaQi_q5.js" as="script"><link rel="prefetch" href="/assets/textreview-prozhito.html-qAbP0Phv.js" as="script"><link rel="prefetch" href="/assets/textreview-rusneb.html--heREEuw.js" as="script"><link rel="prefetch" href="/assets/textreview-smereka.html-sCxFvh0L.js" as="script"><link rel="prefetch" href="/assets/textreview-sokrat-online.html-Bj3iKUL8.js" as="script"><link rel="prefetch" href="/assets/textreview-tolstoy.html-BUiCEBAu.js" as="script"><link rel="prefetch" href="/assets/textreview-vivaldi.html-Dv3HBt3f.js" as="script"><link rel="prefetch" href="/assets/textreview-wikisource.html-DIOS6BcY.js" as="script"><link rel="prefetch" href="/assets/tufte-css.html-B0yTSzC4.js" as="script"><link rel="prefetch" href="/assets/абстрактный-труд-и-абстракция.html-EKsCgpHv.js" as="script"><link rel="prefetch" href="/assets/атом-в-диссертации-маркса-и-категории-капитала.html-CmY-8d9d.js" as="script"><link rel="prefetch" href="/assets/диалектический-материализм-мориса-корнфорта.html-CbeXZV2d.js" as="script"><link rel="prefetch" href="/assets/дополнение-про-масштаб-цен.html-D7GvRxsk.js" as="script"><link rel="prefetch" href="/assets/заметки-к-статье-экономическая-теория-маркса.html-CG-WgmJl.js" as="script"><link rel="prefetch" href="/assets/заметки-о-введении-к-критике-политической-экономии.html-D2URUeW_.js" as="script"><link rel="prefetch" href="/assets/заметки-по-мотивам-статей-бухарина-20-годов.html-CRGLpGav.js" as="script"><link rel="prefetch" href="/assets/заметки-по-поводу-эффективности-самообразовательных-сообществ.html-DRfOdhNe.js" as="script"><link rel="prefetch" href="/assets/заметки-про-цифровой-социализм-и-огас-2.0.html-DHuT3dM5.js" as="script"><link rel="prefetch" href="/assets/инструкция-по-типографике-и-unicode.html-CMDYt55t.js" as="script"><link rel="prefetch" href="/assets/использование-математических-формул-в-результатах-текстологической-работы.html-D2bqsgME.js" as="script"><link rel="prefetch" href="/assets/комментарий-к-комментариям-розенберга-на-тему-общественных-отношений.html-DHzGVlXO.js" as="script"><link rel="prefetch" href="/assets/конспект-книги-мозг-фирмы.html-B0qZQV9v.js" as="script"><link rel="prefetch" href="/assets/метафора-расхождения-теоретических-позиций.html-zlfpNacx.js" as="script"><link rel="prefetch" href="/assets/необходимы-ли-более-простые-тексты.html-CJswD6ex.js" as="script"><link rel="prefetch" href="/assets/о-роли-ведущего-в-самообразовании.html-yunBkvcZ.js" as="script"><link rel="prefetch" href="/assets/обзор-критики-загорского-эксперимента.html-oXQES43z.js" as="script"><link rel="prefetch" href="/assets/общественные-отношения-и-технологии.html-BNCOqUyE.js" as="script"><link rel="prefetch" href="/assets/опыт-представления-и-теория-в-капитале.html-DsNVKC99.js" as="script"><link rel="prefetch" href="/assets/открытая-текстология.html-zCpHAwgo.js" as="script"><link rel="prefetch" href="/assets/параллельный-текст-манифеста-коммунистической-партии.html-CSWmyvzD.js" as="script"><link rel="prefetch" href="/assets/почему-чтение-остаётся-только-чтением.html-CtDStBRZ.js" as="script"><link rel="prefetch" href="/assets/правила-пунктуации-при-оцифровке-текстов.html-D6uauJXt.js" as="script"><link rel="prefetch" href="/assets/правильный-взгляд-на-художественное-произведение.html-DZxzUMWE.js" as="script"><link rel="prefetch" href="/assets/предметы-и-формы-деятельности.html-0tt84Yee.js" as="script"><link rel="prefetch" href="/assets/представления-о-методе-восхождения.html-rUkQ2530.js" as="script"><link rel="prefetch" href="/assets/преодоление-второго-информационного-барьера-и-производительная-сила.html-CB3Av3g2.js" as="script"><link rel="prefetch" href="/assets/про-жареных-рябчиков.html-CMWMadm6.js" as="script"><link rel="prefetch" href="/assets/про-мотивацию.html-TXGWoh30.js" as="script"><link rel="prefetch" href="/assets/про-ограниченность-цитат.html-CyJ1SRxk.js" as="script"><link rel="prefetch" href="/assets/про-ответ-ильенкова-кронроду.html-C5u4yiIT.js" as="script"><link rel="prefetch" href="/assets/про-ёфикацию-текстов.html-DtHByzEt.js" as="script"><link rel="prefetch" href="/assets/проблемы-конвертации-маркдаун-в-фб2-через-пандок.html-BFtnLg-Y.js" as="script"><link rel="prefetch" href="/assets/проблемы-перехода-к-плановой-экономике.html-LNHlCHja.js" as="script"><link rel="prefetch" href="/assets/развитие-относительной-формы-стоимости.html-B_gcYwF4.js" as="script"><link rel="prefetch" href="/assets/развитие-формы-денег.html-CZWN8Rvd.js" as="script"><link rel="prefetch" href="/assets/разум-в-общении.html-uVmQiI_6.js" as="script"><link rel="prefetch" href="/assets/реляционная-модель-данных.html-DsaRI8fH.js" as="script"><link rel="prefetch" href="/assets/с-какой-стороны-подойти-к-пониманию-абстрактного-труда.html-BrTI0t7k.js" as="script"><link rel="prefetch" href="/assets/система-кэмпа.html-CYED921y.js" as="script"><link rel="prefetch" href="/assets/сравнение-облегчённых-языков-разметки-документов.html-f_Gdbfnc.js" as="script"><link rel="prefetch" href="/assets/схемофетишизм.html-Dlr6If4A.js" as="script"><link rel="prefetch" href="/assets/тезисы-о-безбумажности.html-hcPjiqDb.js" as="script"><link rel="prefetch" href="/assets/текст-как-указатель.html-fDZUcx1w.js" as="script"><link rel="prefetch" href="/assets/текстология-и-движение-целого.html-AKvqUD5i.js" as="script"><link rel="prefetch" href="/assets/технические-аспекты-текстологии.html-D01naxqu.js" as="script"><link rel="prefetch" href="/assets/триз-и-перебор-вариантов.html-BaUh9TIp.js" as="script"><link rel="prefetch" href="/assets/формат-open-publication-distribution-system.html-dpWIfevA.js" as="script"><link rel="prefetch" href="/assets/фотокопия-книги-и-текст-книги.html-DZ5TfGTQ.js" as="script"><link rel="prefetch" href="/assets/цитатный-метод.html-Db-PgQLJ.js" as="script"><link rel="prefetch" href="/assets/что-означает-понять-предмет.html-RpPGLhzU.js" as="script"><link rel="prefetch" href="/assets/404.html-BKnocOcs.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container no-sidebar external-link-icon" vp-container><!--[--><header class="vp-navbar" vp-navbar><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/"><!----><span class="vp-site-name" aria-hidden="true">Текстология</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="auto-link external-link" href="https://defcon.social/@pensadoj" aria-label="Mastodon" rel="noopener noreferrer" target="_blank"><!--[--><!--[--><!--]--><!--]-->Mastodon<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://t.me/pensadoj" aria-label="Telegram" rel="noopener noreferrer" target="_blank"><!--[--><!--[--><!--]--><!--]-->Telegram<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button type="button" class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar" vp-sidebar><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="auto-link external-link" href="https://defcon.social/@pensadoj" aria-label="Mastodon" rel="noopener noreferrer" target="_blank"><!--[--><!--[--><!--]--><!--]-->Mastodon<!--[--><!--[--><!--]--><!--]--></a></div><div class="vp-navbar-item"><a class="auto-link external-link" href="https://t.me/pensadoj" aria-label="Telegram" rel="noopener noreferrer" target="_blank"><!--[--><!--[--><!--]--><!--]-->Telegram<!--[--><!--[--><!--]--><!--]--></a></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div vp-content><!--[--><!--]--><div><h1 id="структура-словареи-hunspell-основы-и-составные-слова" tabindex="-1"><a class="header-anchor" href="#структура-словареи-hunspell-основы-и-составные-слова"><span>Структура словарей Hunspell: основы и составные слова</span></a></h1><p><strong>06.09.2025</strong></p><p>Простейший способ проверки орфографии — составить словарь из правильных слов и проверять каждое слово на вхождение в этот список. Однако такой подход неудобен и неуниверсален: количество слов слишком велико. Например, одно и то же слово может иметь разные формы: <code>дом</code> и <code>дома</code>. Другой пример: слово <code>дом</code> будет считаться правильным даже с заглавной буквы (<code>Дом</code>), если оно стоит в начале предложения, а вот имя <code>Василий</code> должно писаться с большой буквы в любом случае. Эти и другие особенности затрудняют использование словаря в виде простого списка слов.</p><p>Библиотека <a href="https://hunspell.github.io" target="_blank" rel="noopener noreferrer">Hunspell</a> (<a href="https://ru.wikipedia.org/wiki/Hunspell" target="_blank" rel="noopener noreferrer">Википедия — Hunspell</a>) позволяет проверять орфографию с учётом морфологии и предлагает дополнительные возможности.</p><p>Словари Hunspell состоят из двух файлов: файла со словами (<code>.dic</code>) и файла с правилами (файл аффиксов <code>.aff</code>). Существует <a href="https://mozilla-russia.org/projects/dictionary/hunspell.html" target="_blank" rel="noopener noreferrer">перевод документации по формату словарей</a>, а также более полная документация в <a href="https://github.com/hunspell/hunspell/tree/master/man" target="_blank" rel="noopener noreferrer">репозитории Hunspell</a>. Далее приведены примеры работы некоторых команд из этой документации, а также ссылки на реальные словари, использующие эти команды — в основном из <a href="https://github.com/LibreOffice/dictionaries" target="_blank" rel="noopener noreferrer">репозитория LibreOffice</a>.</p><p>Для генерации примеров используется библиотека Python <a href="https://github.com/pyhunspell/pyhunspell" target="_blank" rel="noopener noreferrer">pyhunspell</a> и следующий код.</p><div class="language-python line-numbers-mode" data-highlighter="prismjs" data-ext="py"><pre><code><span class="line"><span class="token keyword">import</span> sys</span>
+<span class="line"><span class="token keyword">from</span> pathlib <span class="token keyword">import</span> Path</span>
+<span class="line"></span>
+<span class="line"><span class="token keyword">import</span> hunspell</span>
+<span class="line"></span>
+<span class="line"><span class="token keyword">def</span> <span class="token function">check_spelling_with_hunspell</span><span class="token punctuation">(</span></span>
+<span class="line">    aff_path<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;custom.aff&quot;</span><span class="token punctuation">,</span></span>
+<span class="line">    dic_path<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;custom.dic&quot;</span><span class="token punctuation">,</span></span>
+<span class="line">    words_file<span class="token punctuation">:</span> <span class="token builtin">str</span> <span class="token operator">=</span> <span class="token string">&quot;words.txt&quot;</span></span>
+<span class="line"><span class="token punctuation">)</span><span class="token punctuation">:</span></span>
+<span class="line">    aff_path <span class="token operator">=</span> Path<span class="token punctuation">(</span>aff_path<span class="token punctuation">)</span></span>
+<span class="line">    dic_path <span class="token operator">=</span> Path<span class="token punctuation">(</span>dic_path<span class="token punctuation">)</span></span>
+<span class="line">    words_path <span class="token operator">=</span> Path<span class="token punctuation">(</span>words_file<span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line">    <span class="token comment"># Чтение и вывод содержимого .aff</span></span>
+<span class="line">    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;.aff &quot;</span> <span class="token operator">+</span> <span class="token string">&quot;-&quot;</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span></span>
+<span class="line">    <span class="token keyword">print</span><span class="token punctuation">(</span>aff_path<span class="token punctuation">.</span>read_text<span class="token punctuation">(</span>encoding<span class="token operator">=</span><span class="token string">&quot;utf-8&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span></span>
+<span class="line">    </span>
+<span class="line">    <span class="token comment"># Чтение и вывод содержимого .dic</span></span>
+<span class="line">    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;.dic&quot;</span> <span class="token operator">+</span> <span class="token string">&quot; &quot;</span> <span class="token operator">+</span> <span class="token string">&quot;-&quot;</span> <span class="token operator">*</span> <span class="token number">50</span><span class="token punctuation">)</span></span>
+<span class="line">    <span class="token keyword">print</span><span class="token punctuation">(</span>dic_path<span class="token punctuation">.</span>read_text<span class="token punctuation">(</span>encoding<span class="token operator">=</span><span class="token string">&quot;utf-8&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span></span>
+<span class="line">    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;-&quot;</span> <span class="token operator">*</span> <span class="token number">55</span><span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line">    checker <span class="token operator">=</span> hunspell<span class="token punctuation">.</span>HunSpell<span class="token punctuation">(</span><span class="token builtin">str</span><span class="token punctuation">(</span>dic_path<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token builtin">str</span><span class="token punctuation">(</span>aff_path<span class="token punctuation">)</span><span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line">    <span class="token comment"># Чтение слов для проверки</span></span>
+<span class="line">    words_to_check <span class="token operator">=</span> words_path<span class="token punctuation">.</span>read_text<span class="token punctuation">(</span>encoding<span class="token operator">=</span><span class="token string">&quot;utf-8&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span>splitlines<span class="token punctuation">(</span><span class="token punctuation">)</span></span>
+<span class="line">    words_to_check <span class="token operator">=</span> <span class="token punctuation">[</span>w<span class="token punctuation">.</span>strip<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">for</span> w <span class="token keyword">in</span> words_to_check <span class="token keyword">if</span> w<span class="token punctuation">.</span>strip<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">]</span></span>
+<span class="line"></span>
+<span class="line">    <span class="token comment"># Проверка каждого слова</span></span>
+<span class="line">    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;Проверка слов:&quot;</span><span class="token punctuation">)</span></span>
+<span class="line">    <span class="token keyword">for</span> word <span class="token keyword">in</span> words_to_check<span class="token punctuation">:</span></span>
+<span class="line">        is_correct <span class="token operator">=</span> checker<span class="token punctuation">.</span>spell<span class="token punctuation">(</span>word<span class="token punctuation">)</span></span>
+<span class="line">        status <span class="token operator">=</span> <span class="token string">&quot;✅&quot;</span> <span class="token keyword">if</span> is_correct <span class="token keyword">else</span> <span class="token string">&quot;❌&quot;</span></span>
+<span class="line">        <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f&quot;</span><span class="token interpolation"><span class="token punctuation">{</span>word<span class="token punctuation">}</span></span><span class="token string"> — </span><span class="token interpolation"><span class="token punctuation">{</span>status<span class="token punctuation">}</span></span><span class="token string">&quot;</span></span><span class="token punctuation">)</span></span>
+<span class="line"></span>
+<span class="line">    <span class="token keyword">del</span> checker</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>В каждом примере показано содержимое файлов <code>aff</code> и <code>dic</code>, а также несколько слов для проверки. В отдельных местах приведены цитаты из документации.</p><nav class="table-of-contents"><ul><li><a aria-current="page" href="/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B5%D0%B9-hunspell-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B8-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0.html#минимальныи-словарь" class="router-link-active router-link-exact-active">Минимальный словарь</a></li><li><a aria-current="page" href="/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B5%D0%B9-hunspell-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B8-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0.html#учет-регистра-символов" class="router-link-active router-link-exact-active">Учёт регистра символов</a></li><li><a aria-current="page" href="/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B5%D0%B9-hunspell-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B8-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0.html#keepcase" class="router-link-active router-link-exact-active">KEEPCASE</a></li><li><a aria-current="page" href="/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B5%D0%B9-hunspell-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B8-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0.html#небуквенные-символы" class="router-link-active router-link-exact-active">Небуквенные символы</a></li><li><a aria-current="page" href="/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B5%D0%B9-hunspell-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B8-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0.html#break" class="router-link-active router-link-exact-active">BREAK</a></li><li><a aria-current="page" href="/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B5%D0%B9-hunspell-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B8-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0.html#ignore" class="router-link-active router-link-exact-active">IGNORE</a></li><li><a aria-current="page" href="/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B5%D0%B9-hunspell-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B8-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0.html#iconv" class="router-link-active router-link-exact-active">ICONV</a></li><li><a aria-current="page" href="/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B5%D0%B9-hunspell-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B8-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0.html#compoundflag" class="router-link-active router-link-exact-active">COMPOUNDFLAG</a></li><li><a aria-current="page" href="/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B5%D0%B9-hunspell-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B8-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0.html#compoundmin" class="router-link-active router-link-exact-active">COMPOUNDMIN</a></li><li><a aria-current="page" href="/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B5%D0%B9-hunspell-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B8-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0.html#onlyincompound" class="router-link-active router-link-exact-active">ONLYINCOMPOUND</a></li><li><a aria-current="page" href="/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B5%D0%B9-hunspell-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-%D0%B8-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D1%8B%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0.html#compoundrule" class="router-link-active router-link-exact-active">COMPOUNDRULE</a></li></ul></nav><h2 id="минимальныи-словарь" tabindex="-1"><a class="header-anchor" href="#минимальныи-словарь"><span>Минимальный словарь</span></a></h2><p>Файл <code>.aff</code> обязательно должен содержать указание кодировки. Лучше использовать <code>UTF-8</code>. Если других правил в <code>.aff</code> нет, слова из <code>.dic</code> будут проверяться на точное совпадение.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">1</span>
+<span class="line">сюртук</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">сюртук — ✅</span>
+<span class="line">сюртуки — ❌</span>
+<span class="line">холст — ❌</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p><code>SET</code> кодировка</p><p>Устанавливает кодировку символов для слов и морфем в файлах словаря и аффиксов. Поддерживаемые значения: <code>UTF-8</code>, <code>ISO8859−1</code>–<code>ISO8859−10</code>, <code>ISO8859−13</code>–<code>ISO8859−15</code>, <code>KOI8-R</code>, <code>KOI8-U</code>, <code>microsoft-cp1251</code>, <code>ISCII-DEVANAGARI</code>.</p></blockquote><p>В большинстве словарей используется кодировка UTF-8. Примеры словарей с другой кодировкой: <a href="https://github.com/LibreOffice/dictionaries/tree/master/de" target="_blank" rel="noopener noreferrer"><code>de_DE_frami</code></a> и <a href="https://github.com/LibreOffice/dictionaries/tree/master/pl_PL" target="_blank" rel="noopener noreferrer"><code>pl_PL.dic</code></a>.</p><h2 id="учет-регистра-символов" tabindex="-1"><a class="header-anchor" href="#учет-регистра-символов"><span>Учёт регистра символов</span></a></h2><p>Если слово в словаре указано строчными буквами, оно будет считаться правильным даже при написании с заглавной буквы. Если же слово начинается с прописной, оно будет правильным только при таком же написании. Любое слово, написанное полностью заглавными буквами, будет признано корректным.</p><p>Эта особенность используется для проверки имён собственных.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">2</span>
+<span class="line">сюртук</span>
+<span class="line">Василий</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">сюртук — ✅</span>
+<span class="line">Сюртук — ✅</span>
+<span class="line">СЮРТУК — ✅</span>
+<span class="line">сЮртук — ❌</span>
+<span class="line">Василий — ✅</span>
+<span class="line">ВАСИЛИЙ — ✅</span>
+<span class="line">василий — ❌</span>
+<span class="line">вАсилий — ❌</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="keepcase" tabindex="-1"><a class="header-anchor" href="#keepcase"><span>KEEPCASE</span></a></h2><p>Чтобы задать особое поведение для конкретных слов, в <code>.aff</code>-файле объявляются специальные флаги, которые затем применяются к словам в <code>.dic</code> через символ <code>/</code>.</p><p>В следующем примере директива <code>KEEPCASE</code> объявляет флаг <code>K</code>, который затем добавляется к двум словам в <code>.dic</code>.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line">KEEPCASE K</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">2</span>
+<span class="line">сюртук/K</span>
+<span class="line">iPhone/K</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">сюртук — ✅</span>
+<span class="line">Сюртук — ❌</span>
+<span class="line">СЮРТУК — ❌</span>
+<span class="line">iPhone — ✅</span>
+<span class="line">IPHONE — ❌</span>
+<span class="line">iphone — ❌</span>
+<span class="line">iPhOne — ❌</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p><code>KEEPCASE</code> флаг</p><p>Для слов, отмеченных флагом <code>KEEPCASE</code>, запрещается образование форм в верхнем регистре и форм, начинающихся с прописной буквы. Полезно для специальных орфографий (в которых единицы измерений и символы валют не изменяют регистр даже в текстах, состоящих из прописных букв) и систем написания (например, для сохранения нижнего регистра символов IPA).</p></blockquote><p>Команда используется в словарях <a href="https://github.com/LibreOffice/dictionaries/tree/master/de" target="_blank" rel="noopener noreferrer"><code>de_DE_frami</code></a> и <a href="https://github.com/LibreOffice/dictionaries/tree/master/fr_FR" target="_blank" rel="noopener noreferrer"><code>fr</code></a>.</p><h2 id="небуквенные-символы" tabindex="-1"><a class="header-anchor" href="#небуквенные-символы"><span>Небуквенные символы</span></a></h2><p>В словах могут встречаться небуквенные символы: апостроф (<code>’</code>), дефис (<code>-</code>), цифры и другие. С их помощью в словарь можно добавлять составные слова и сокращения.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">5</span>
+<span class="line">абстрактно-общее</span>
+<span class="line">Д’Аржансон</span>
+<span class="line">Д.</span>
+<span class="line">м.</span>
+<span class="line">Agent007</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">абстрактно-общее — ✅</span>
+<span class="line">Д’Аржансон — ✅</span>
+<span class="line">Д&#39;Аржансон — ❌</span>
+<span class="line">Д. — ✅</span>
+<span class="line">Д — ❌</span>
+<span class="line">М. — ✅</span>
+<span class="line">Agent007 — ✅</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Слова в словаре могут содержать символ <code>/</code>, но его нужно экранировать, так как он служит разделителем между словом и флагами.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">1</span>
+<span class="line">и\/или</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">и/или — ✅</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p>Файл словаря (<code>.dic</code>) содержит список слов, по одному слову в строке. В первой строке словарей (за исключением персональных словарей) указывается приблизительное количество слов в словаре (для оптимального распределения памяти). После каждого слова может следовать слэш (&quot;/&quot;) и один или более флагов, соответствующих аффиксам и атрибутам. Слова в словаре также могут содержать слэши, экранированные &quot;\/&quot;. По умолчанию, флаг представляет собой один (обычно, алфавитный) символ. В файле словаря Hunspell также может существовать поле для морфологического описания, отделяемое табуляцией.</p></blockquote><h2 id="break" tabindex="-1"><a class="header-anchor" href="#break"><span>BREAK</span></a></h2><p>Hunspell умеет проверять составные слова, образованные из простых. В русском языке такие слова могут соединяться через дефис (<code>-</code>) или косую черту (<code>/</code>). Проверим, как это работает.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">5</span>
+<span class="line">и</span>
+<span class="line">или</span>
+<span class="line">либо</span>
+<span class="line">абстрактно</span>
+<span class="line">общее</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">и/или — ❌</span>
+<span class="line">либо/либо — ❌</span>
+<span class="line">абстрактно-общее — ✅</span>
+<span class="line">конкретно-общее — ❌</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Дефис работает, а косая черта — нет. Список символов-разделителей можно задать с помощью команды <code>BREAK</code>.</p><blockquote><p><code>BREAK</code> количество_определений_разделений <code>BREAK</code> символ_или_последовательность_символов</p><p>Определяет точку для разделения слова и проверку полученных частей по отдельности. Полезно для сложносоставных слов, объединенных с помощью одного символа или последовательности символов (например, дефис в английском и немецком или дефис и короткое тире в венгерском языках). Тире не рекомендуется использовать как точку для разбиения слов, т.к. сложносоставные слова с тире могут содержать неправильные части. Используя <code>BREAK</code>, Hunspell может проверить обе части сложносоставных слов, разделяя слова по обычным и коротким тире:</p></blockquote><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line"></span>
+<span class="line">BREAK 2</span>
+<span class="line">BREAK /</span>
+<span class="line">BREAK -</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">5</span>
+<span class="line">и</span>
+<span class="line">или</span>
+<span class="line">либо</span>
+<span class="line">абстрактно</span>
+<span class="line">общее</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">и/или — ✅</span>
+<span class="line">либо/либо — ✅</span>
+<span class="line">абстрактно-общее — ✅</span>
+<span class="line">конкретно-общее — ❌</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Команда используется в словарях <a href="https://github.com/LibreOffice/dictionaries/tree/master/de" target="_blank" rel="noopener noreferrer"><code>de_DE_frami</code></a>, <a href="https://github.com/LibreOffice/dictionaries/tree/master/fr_FR" target="_blank" rel="noopener noreferrer"><code>fr</code></a>, <a href="https://github.com/mrakia/hunspell-ancient-greek" target="_blank" rel="noopener noreferrer"><code>grc_GR</code></a>.</p><h2 id="ignore" tabindex="-1"><a class="header-anchor" href="#ignore"><span>IGNORE</span></a></h2><p>Иногда полезно исключить из проверки определённые символы. Рассмотрим пример: в словаре есть несколько слов, некоторые из которых указаны с ударением.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">3</span>
+<span class="line">большим</span>
+<span class="line">что́</span>
+<span class="line">что</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">большим — ✅</span>
+<span class="line">бо́льшим — ❌</span>
+<span class="line">что́ — ✅</span>
+<span class="line">что — ✅</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Слова с ударением проверяются корректно. Слово <code>бо́льшим</code> определяется как ошибочное, потому что в словаре нет его версии с ударением. Удобно игнорировать символ ударения при проверке, чтобы не дублировать все слова.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line"></span>
+<span class="line">IGNORE ́</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">2</span>
+<span class="line">большим</span>
+<span class="line">что</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">большим — ✅</span>
+<span class="line">бо́льшим — ✅</span>
+<span class="line">что́ — ✅</span>
+<span class="line">что — ✅</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Символ ударения игнорируется (удаляется) при проверке, поэтому как слова с ударением, так и без него, распознаются как правильные.</p><p>Команда используется в словаре <a href="https://github.com/LibreOffice/dictionaries/tree/master/uk_UA" target="_blank" rel="noopener noreferrer"><code>uk_UA</code></a>.</p><h2 id="iconv" tabindex="-1"><a class="header-anchor" href="#iconv"><span>ICONV</span></a></h2><p>Команда <code>ICONV</code> определяет замены во входных данных перед проверкой по словарю. Например, в тексте может использоваться неправильный апостроф (<code>&#39;</code>) вместо правильного (<code>’</code>). В таком случае слово будет признано ошибочным.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">1</span>
+<span class="line">Д’Аржансон</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">Д&#39;Аржансон — ❌</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>При замене символа <code>&#39;</code> на <code>’</code> с помощью <code>ICONV</code> слово определяется верно.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line"></span>
+<span class="line">ICONV 1</span>
+<span class="line">ICONV &#39; ’</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">1</span>
+<span class="line">Д’Аржансон</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">Д&#39;Аржансон — ✅</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Однако в данном случае замена апострофа может быть не самой удачной стратегией — она скрывает ошибочное использование символа.</p><p>Команда используется в словаре <a href="https://github.com/LibreOffice/dictionaries/tree/master/uk_UA" target="_blank" rel="noopener noreferrer"><code>uk_UA</code></a>. Там она применяется особым образом: в качестве символа замены указан <code>0</code>, что означает удаление. Из-за этого словарь игнорирует некоторые символы, что может приводить к ложному признанию слов правильными. Эта особенность может влиять на системы, использующие несколько словарей разных языков.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line"></span>
+<span class="line">ICONV 6</span>
+<span class="line">ICONV a 0</span>
+<span class="line">ICONV b 0</span>
+<span class="line">ICONV c 0</span>
+<span class="line">ICONV d 0</span>
+<span class="line">ICONV e 0</span>
+<span class="line">ICONV f 0</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">1</span>
+<span class="line">холст</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">bbbхолст — ❌</span>
+<span class="line">aba — ✅</span>
+<span class="line">abaz — ❌</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="compoundflag" tabindex="-1"><a class="header-anchor" href="#compoundflag"><span>COMPOUNDFLAG</span></a></h2><p>Hunspell позволяет создавать правила формирования составных слов из базовых. Это сложный функционал, реализованный набором директив. Директива <code>COMPOUNDFLAG</code> объявляет флаг, помеченные которым слова могут входить в составные слова в любом порядке.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line"></span>
+<span class="line">COMPOUNDFLAG C</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">3</span>
+<span class="line">само/C	</span>
+<span class="line">кат/C</span>
+<span class="line">лёт</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">само — ✅</span>
+<span class="line">лёт — ✅</span>
+<span class="line">кат — ✅</span>
+<span class="line">самокат — ✅</span>
+<span class="line">самолёт — ❌</span>
+<span class="line">катсамо — ✅</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p><code>COMPOUNDFLAG</code> флаг</p><p>Слова, отмеченные <code>COMPOUNDFLAG</code>, могут являться частью составного слова (за исключением случаев, когда слово имеет длину меньшую, чем указано в <code>COMPOUNDMIN</code>). Аффиксы с <code>COMPOUNDFLAG</code> также допускают использование слов с ними в составе сложных слов.</p></blockquote><h2 id="compoundmin" tabindex="-1"><a class="header-anchor" href="#compoundmin"><span>COMPOUNDMIN</span></a></h2><p>Директива <code>COMPOUNDMIN</code> задаёт минимальную длину слов, которые могут быть частями составного слова. По умолчанию — 3 символа. Даже если слово помечено <code>COMPOUNDFLAG</code>, оно не будет использоваться как составная часть, если короче <code>COMPOUNDMIN</code>. В примере ниже слово <code>кат</code> не становится составной частью, поэтому <code>самокат</code> определяется как ошибка.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line"></span>
+<span class="line">COMPOUNDFLAG C</span>
+<span class="line">COMPOUNDMIN 4</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">4</span>
+<span class="line">само/C	</span>
+<span class="line">кат/C</span>
+<span class="line">водо/C</span>
+<span class="line">канал/C</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">само — ✅</span>
+<span class="line">кат — ✅</span>
+<span class="line">самокат — ❌</span>
+<span class="line">водо — ✅</span>
+<span class="line">канал — ✅</span>
+<span class="line">водоканал — ✅</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Команда используется в словарях <a href="https://github.com/LibreOffice/dictionaries/tree/master/de" target="_blank" rel="noopener noreferrer"><code>de_DE_frami.dic</code></a> и <a href="https://github.com/LibreOffice/dictionaries/tree/master/en" target="_blank" rel="noopener noreferrer"><code>en_US.dic</code></a>.</p><h2 id="onlyincompound" tabindex="-1"><a class="header-anchor" href="#onlyincompound"><span>ONLYINCOMPOUND</span></a></h2><blockquote><p><code>ONLYINCOMPOUND</code> флаг</p><p>Суффиксы, отмеченные <code>ONLYINCOMPOUND</code>, могут находиться только в составных словах (словосоединяющие морфемы в немецком и шведском языках). Флагом <code>ONLYINCOMPOUND</code> также можно отметить обычные слова (см. примеры в <code>tests/onlyincompound.*</code>).</p></blockquote><p>Чтобы слово использовалось только внутри составных слов, оно должно быть помечено и <code>ONLYINCOMPOUND</code>, и <code>COMPOUNDFLAG</code>.</p><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line"></span>
+<span class="line">COMPOUNDFLAG C</span>
+<span class="line">ONLYINCOMPOUND O</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">4</span>
+<span class="line">само/C	</span>
+<span class="line">кат/C</span>
+<span class="line">водо/CO</span>
+<span class="line">канал/C</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">само — ✅</span>
+<span class="line">кат — ✅</span>
+<span class="line">самокат — ✅</span>
+<span class="line">водо — ❌</span>
+<span class="line">канал — ✅</span>
+<span class="line">водоканал — ✅</span>
+<span class="line">водокат — ✅</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Команда используется в словарях <a href="https://github.com/LibreOffice/dictionaries/tree/master/de" target="_blank" rel="noopener noreferrer"><code>de_DE_frami.dic</code></a> и <a href="https://github.com/LibreOffice/dictionaries/tree/master/en" target="_blank" rel="noopener noreferrer"><code>en_US.dic</code></a>.</p><h2 id="compoundrule" tabindex="-1"><a class="header-anchor" href="#compoundrule"><span>COMPOUNDRULE</span></a></h2><p>Директива <code>COMPOUNDRULE</code> задаёт правила построения составных слов. Например, можно указать, что одни части могут стоять только в начале, другие — только в конце. Правила <code>COMPOUNDRULE</code> работают с флагами, объявленными другими директивами: <code>COMPOUNDFLAG</code>, <code>COMPOUNDBEGIN</code>, <code>COMPOUNDLAST</code> и другими.</p><p><code>COMPOUNDBEGIN</code> и <code>COMPOUNDLAST</code> не работают без <code>COMPOUNDRULE</code>. Способ соединения определяется в правилах <code>COMPOUNDRULE</code>, поэтому названия <code>COMPOUNDBEGIN</code> и <code>COMPOUNDLAST</code> нужны в первую очередь для читаемости — их можно использовать условно.</p><blockquote><p><code>COMPOUNDBEGIN</code> флаг</p><p>Слова, отмеченные <code>COMPOUNDBEGIN</code> (или с отмеченным аффиксом), могут быть первыми элементами составных слов.</p></blockquote><blockquote><p><code>COMPOUNDLAST</code> флаг</p><p>Слова, отмеченные <code>COMPOUNDLAST</code> (или с отмеченным аффиксом), могут быть последними элементами составных слов.</p></blockquote><div class="language-text line-numbers-mode" data-highlighter="prismjs" data-ext="text"><pre><code><span class="line">.aff --------------------------------------------------</span>
+<span class="line">SET UTF-8</span>
+<span class="line"></span>
+<span class="line">ONLYINCOMPOUND O</span>
+<span class="line">COMPOUNDBEGIN B</span>
+<span class="line">COMPOUNDLAST L</span>
+<span class="line"></span>
+<span class="line">COMPOUNDRULE 1</span>
+<span class="line">COMPOUNDRULE BL</span>
+<span class="line">.dic --------------------------------------------------</span>
+<span class="line">4</span>
+<span class="line">само/B</span>
+<span class="line">кат/L</span>
+<span class="line">водо/BO</span>
+<span class="line">канал/L</span>
+<span class="line">-------------------------------------------------------</span>
+<span class="line">Проверка слов:</span>
+<span class="line">само — ✅</span>
+<span class="line">кат — ✅</span>
+<span class="line">самокат — ✅</span>
+<span class="line">водо — ❌</span>
+<span class="line">канал — ✅</span>
+<span class="line">водоканал — ✅</span>
+<span class="line">каналводо — ❌</span>
+<span class="line">водокат — ✅</span>
+<span class="line">катводо — ❌</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Команды используются в словарях <a href="https://github.com/LibreOffice/dictionaries/tree/master/de" target="_blank" rel="noopener noreferrer"><code>de_DE_frami.dic</code></a> и <a href="https://github.com/LibreOffice/dictionaries/tree/master/en" target="_blank" rel="noopener noreferrer"><code>en_US.dic</code></a>.</p></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><div class="vp-meta-item last-updated"><span class="meta-item-label">Последнее изменение: </span><time class="meta-item-info" datetime="2025-09-06T08:55:15.000Z" data-allow-mismatch>06.09.2025, 08:55</time></div><!----></div></footer><!----><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-3vC-laG6.js" defer></script>
+  </body>
+</html>
