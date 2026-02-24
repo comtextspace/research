@@ -108,6 +108,7 @@
 20. [Флибуста](textreview-flibusta.md) (16.02.2026)
 21. [Электронные книги Бюро Горбунова](textreview-bureau.md) (17.02.2026)
 22. [Оцифрованные собрания сочинений В. И. Ленина](textreview-lenin-ocr.md) (18.02.2026)
+23. [esperanto.mv.ru](textreview-esperanto-mv-ru.md) (24.02.2026)
 
 ## Форматы
 
