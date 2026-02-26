@@ -610,3 +610,7 @@ $$
 * `author`
 * `lang`
 * `genre`
+
+## Дополнительно
+
+Плагин [Comtext-lint](https://open-vsx.org/extension/comtext/comtext-lint/) для VSCodium проверяет соответствие открытого файла формату Комтекст.
