@@ -254,16 +254,15 @@ tags:
 
 Для волонтёров размещены [инструкции по созданию EPUB](https://www.marxists.org/admin/volunteers/ebooks.htm), но в целом на сайте их создано не очень много.
 
-Сообщения об опечатках тоже принимаются по электронной почте.
+Сообщения об опечатках принимаются по электронной почте.
 
 Машинные переводы запрещены:
 
 > We do not accept machine translations. We only accept translations done by persons fluent in both languages. Machine translation can be used as a tool during the translation process but if it is not reviewed by someone fluent in both languages then some important political nuances can slip through and it can do injustice to the author and lead to misinterpretation of his/her ideas ([Источник](https://www.marxists.org/admin/janitor/faq.htm)). 
 
-## Копирайт
+## Копирайт
 
 Архив соблюдает копирайт. Одна из причин, почему работа может быть не опубликована:
-
 
 > 3. The writer is dead, but *copyright* to their work is held by their estate or a publisher and we cannot gain permissions. The MIA will never put our core work at risk by publishing works which may lead us into court. Unfortunately, there are writers whose works are very popular in academia and for this reason remain good commercial propositions, long after they are dead. Gramsci is an example. In some cases, even works by revolutionaries like Che Guevara or Trotsky are claimed as property by supposedly communist publishers who prevent others from publishing certain works ([Источник](https://www.marxists.org/admin/janitor/faq.htm)). 
 
