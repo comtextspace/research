@@ -152,7 +152,42 @@ tags:
 
 В [основной секции английского раздела](https://www.marxists.org/archive/index.htm) архива много авторов, они разделены на группы: «International Working-men's Association (First International)», «The Spartacist League», «The Bolsheviks», «Trotskyism» и др. У каждого автора отдельная страница со списком произведений. Большинство произведений хранятся в формате HTML.
 
-В английской секции есть [исторический раздел](https://www.marxists.org/history/index.htm), [раздел с материалами по особым темам](https://www.marxists.org/subject/index.htm) и [словарь](https://www.marxists.org/glossary/index.htm). В словаре большое количество библиографических сведений.
+В английской секции сайта представлены три основных раздела:
+
+* [Исторический раздел](https://www.marxists.org/history/index.htm),
+* [Раздел с материалами по особым темам](https://www.marxists.org/subject/index.htm),
+* [Энциклопедия](https://www.marxists.org/glossary/index.htm).
+
+Энциклопедия представляет собой словарь, содержащий большое количество библиографических сведений.
+
+![Список статей энциклопедии на букву «C».](/images/textreview/marxists-internet-archive/marxists-internet-archive-10.png)
+
+![Некоторые статьи энциклопедии-словаря.](/images/textreview/marxists-internet-archive/marxists-internet-archive-11.png)
+
+![Материалы на особые темы в английской секции архива.](/images/textreview/marxists-internet-archive/marxists-internet-archive-12.png)
+
+Раздел, посвящённый образованию, содержит подборку ссылок на работы по этой теме. Аналогичная структура представлена и в других тематических разделах.
+
+![Материалы по теме образования.](/images/textreview/marxists-internet-archive/marxists-internet-archive-13.png)
+
+Для четырёх авторов собраны ссылки на произведения на разных языках:
+
+* [Marx + Engels](https://www.marxists.org/xlang/marx.htm)
+* [V. I. Lenin](https://www.marxists.org/xlang/lenin.htm)
+* [Rosa Luxemburg](https://www.marxists.org/xlang/luxembur.htm)
+* [Leon Trotsky](https://www.marxists.org/xlang/trotsky.htm)
+
+Для каждого из этих авторов на странице размещена таблица с указанием, на каких языках и какие работы переведены — как в архиве, так и за его пределами. Например, таблица для работ В. И. Ленина:
+
+![](/images/textreview/marxists-internet-archive/marxists-internet-archive-14.png)
+
+Согласно этой таблице, наибольшее количество переводов имеют следующие работы:
+
+* «Государство и революция»,
+* «Три источника и три составные части марксизма»,
+* «Апрельские тезисы».
+
+Языки, на которые переведено почти всё наследие Ленина — это китайский и шведский.
 
 ## Обновления
 
