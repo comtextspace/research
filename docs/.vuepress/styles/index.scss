@@ -32,8 +32,3 @@
 .vp-page blockquote p:not(:last-child) {
   margin-bottom: 15px;
 }
-
-div[class*="language-"] pre {
-  white-space: pre-wrap;
-  word-break: break-all;
-}
